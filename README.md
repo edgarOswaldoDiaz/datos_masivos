@@ -8,52 +8,54 @@
 - 1.5 Casos prácticos
 
 #### Unidad 2 Descubrimientos en los datos a través de Cognos analytics de IBM.
-2.1 Creación de cuenta en Cognos Analytics y exploración de la plataforma de IBM
-2.2 Preparación de archivos en Excel y CSV
-2.3 Algunas fuentes de información para macro análisis
-2.4 Visualización de datos y preparación de reportes profesionales:
-2.4.1 Construir tableros dinámicos (dashboards)
-2.4.2 Descubrir relaciones e identificar patrones en los datos
-2.4.3 Crear presentaciones siguiendo una narrativa temporal (stories)
-2.4.4 Casos prácticos.
+- 2.1 Creación de cuenta en Cognos Analytics y exploración de la plataforma de IBM
+- 2.2 Preparación de archivos en Excel y CSV
+- 2.3 Algunas fuentes de información para macro análisis
+- 2.4 Visualización de datos y preparación de reportes profesionales:
+- 2.4.1 Construir tableros dinámicos (dashboards)
+- 2.4.2 Descubrir relaciones e identificar patrones en los datos
+- 2.4.3 Crear presentaciones siguiendo una narrativa temporal (stories)
+- 2.4.4 Casos prácticos.
 
-Unidad 3 “R” para ciencia de datos.
-3.1 Análisis de sentimientos en “R”
-3.1.1 Un paseo por el software “R”
-3.1.2 Paquetería para Ciencia de Datos
-3.1.3 Caso práctico: El estado de ánimo de mi libro o la noticia del día
-3.1.4 Codificación en “R” v. Corpus del documento
-3.1.5 Palabras de opinión negativa
-3.2 Minería de datos en Twitter para sentiment análisis.
-3.2.1 Creación de cuenta para desarrollador, Application Programming
-Interface (API)
-3.2.2 Paquetería para Twitter Mining
-3.2.3 Caso práctico: El estado de ánimo de los tuiteros respecto al “NAFTA”,
-“Trump” u.
+#### Unidad 3 “R” para ciencia de datos.
+- 3.1 Análisis de sentimientos en “R”
+- 3.1.1 Un paseo por el software “R”
+- 3.1.2 Paquetería para Ciencia de Datos
+- 3.1.3 Caso práctico: El estado de ánimo de mi libro o la noticia del día
+- 3.1.4 Codificación en “R” v. Corpus del documento
+- 3.1.5 Palabras de opinión negativa
+- 3.2 Minería de datos en Twitter para sentiment análisis.
+- 3.2.1 Creación de cuenta para desarrollador, Application Programming Interface (API)
+- 3.2.2 Paquetería para (X) antes Twitter Mining
+- 3.2.3 Caso práctico: El estado de ánimo de los tuiteros
 
-Unidad 4 Análisis de datos en Python.
-4.1 Conceptos básicos de Python.
-4.1.1 ¿Qué es y cómo instalar Python?
-4.1.2 Ejecución de código en Jupyter
-4.1.3 Sintaxis
-4.2 Análisis de datos en Python.
-4.2.1 Fuentes de datos
-4.2.2 Tipos de datos que se pueden recopilar
-4.2.3 Gestión, exploración y visualización efectiva de los datos
-4.3 Interpretación de datos inferenciales y modelación estadística.
-4.3.1 Análisis de datos con pandas, numpy y matplotlib
-4.3.2 Importar y exportar datos desde Excel
-4.3.3 Arrays &amp; Dataframes
-4.4 Casos prácticos de análisis y visualización de datos.
-4.4.1 Visualización dinámica
+#### Unidad 4 Análisis de datos en Python.
+- 4.1 Conceptos básicos de Python.
+- 4.1.1 ¿Qué es y cómo instalar Python?
+- 4.1.2 Ejecución de código en Jupyter
+- 4.1.3 Sintaxis
+- 4.2 Análisis de datos en Python.
+- 4.2.1 Fuentes de datos
+- 4.2.2 Tipos de datos que se pueden recopilar
+- 4.2.3 Gestión, exploración y visualización efectiva de los datos
+- 4.3 Interpretación de datos inferenciales y modelación estadística.
+- 4.3.1 Análisis de datos con pandas, numpy y matplotlib
+- 4.3.2 Importar y exportar datos desde Excel
+- 4.3.3 Arrays &amp; Dataframes
+- 4.4 Casos prácticos de análisis y visualización de datos.
+- 4.4.1 Visualización dinámica
 
-Unidad 5 Análisis de redes sociales. (social network analysis)
-5.1 ¿Qué es Social Analytics y cuáles son sus usos?
-5.2 Análisis de redes sociales con NodeXL:
-5.2.1 Conceptos de Social Network
-5.2.2 Importar y preparar datos de Twitter
-5.2.3 Agrupar por clusters (conglomerados)
-5.2.4 Calcular métricas v. Análisis de series de tiempo
-5.2.5 Análisis de sentimientos en texto
-5.2.6 Network
-5.3 Consideraciones éticas sobre el análisis de redes sociales
+#### Unidad 5 Análisis de redes sociales. (social network analysis)
+- 5.1 ¿Qué es Social Analytics y cuáles son sus usos?
+- 5.2 Análisis de redes sociales con NodeXL:
+- 5.2.1 Conceptos de Social Network
+- 5.2.2 Importar y preparar datos de Twitter
+- 5.2.3 Agrupar por clusters (conglomerados)
+- 5.2.4 Calcular métricas v. Análisis de series de tiempo
+- 5.2.5 Análisis de sentimientos en texto
+- 5.2.6 Network
+- 5.3 Consideraciones éticas sobre el análisis de redes sociales
+
+________________________
+> Maestría en Ciencia de Datos | Universidad de la Ciudad de Aguascalientes 
+
