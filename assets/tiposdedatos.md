@@ -126,8 +126,17 @@ Tipos de formatos de datos “no estructurados” en big data
 
 Nota: La gestión de datos no estructurados en entornos de Big Data puede ser un desafío debido a su diversidad y complejidad. Herramientas y plataformas, como Apache Hadoop y Apache Spark, se utilizan para procesar y analizar datos no estructurados en conjunción con datos estructurados.
 
+_______________________
+Referencias
+> Lalaoui, I. L., El Haji, E., & Kounaidi, M. (2025). *The evolution and challenges of real-time big data: A review*. *Computer Sciences & Mathematics Forum, 10*(1), 11. 
 
+> Gonçalves, S., Ventura, J. B., Rua, O. L., Dias, R., & Galvão, R. (2024). *Big data como paradigma emergente en la gestión de las organizaciones: Un análisis bibliométrico*. *Journal of Ecohumanism, 3*(7), 2699–2721. 
 
+> Chen, C. T., Khan, A., & Chen, S. C. (2024). *Modelado del impacto de Big Data Analytics (BDA) y AI en la innovación sostenible, la ambidextría y el desempeño ambiental*. *Journal of Big Data, 11*, 124. 
+
+> Chen, J., Zhang, C., & Zhou, J. (2021). *Big data integration in business intelligence: A survey*. *Journal of Business Research, 124*, 14–25. 
+
+> Hakami, T. A. (2025). *Exploring the evolution of Big Data technologies*. *MDPI*, *Future Internet, 17*(9), 427. 
 
 
 
