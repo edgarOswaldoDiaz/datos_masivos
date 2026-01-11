@@ -167,6 +167,17 @@ Notas:
 * **Data Analytics** interpreta los datos para apoyar decisiones.
 * **Data Scientist** predice y optimiza mediante modelos avanzados.
 
+Referencias
+
+> Provost, F., & Fawcett, T. (2013). *Data science for business: What you need to know about data mining and data-analytic thinking*. O’Reilly Media.
+
+> Knaflic, S. N. (2020). *Storytelling with data: Let’s practice!* Wiley.
+
+> Reis, J., & Housley, M. (2022). *Fundamentals of data engineering: Plan and build robust data systems*. O’Reilly Media.
+
+> Grus, J. (2019). *Data science from scratch: First principles with Python* (2nd ed.). O’Reilly Media.
+
+> Davenport, T. H., & Harris, J. G. (2017). *Competing on analytics: The new science of winning* (Updated ed.). Harvard Business Review Press.
 
 
 
