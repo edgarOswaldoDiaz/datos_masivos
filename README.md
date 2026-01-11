@@ -1,7 +1,7 @@
 ### Temario
 
 #### Unidad 1 Introducción a Big Data y la ciencia de datos.
-- 1.1 Big Data: Datos estructurados y datos no estructurados
+- 1.1 [Big Data: Datos estructurados y datos no estructurados](assets/tiposdedatos.md)
 - 1.2 Data Analysis, Data Analytics, Data Engineer, Data Scientist
 - 1.3 De la hoja de cálculo al trabajo en la nube
 - 1.4 El arte de la visualización de los datos: Flourish – Gapminder - Gephi: Estadísticas animadas
