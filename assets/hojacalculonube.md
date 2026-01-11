@@ -51,7 +51,17 @@ Ejemplo, la transición "de la hoja de cálculo al trabajo en la nube" permite m
 - Incorporación de Big Data frameworks: el manejo y análisis de grandes volúmenes de datos es pertinente incorporar incorpora frameworks de Big Data como Apache Spark.
 - Análisis Avanzado y Machine Learning: Con la infraestructura en la nube y los frameworks de Big Data, es posible realizar análisis más avanzados, como identificación de patrones, predicciones aplicar modelos de machine learning para optimizar estrategias.
 
+Referencias
 
+> McCullough, B. D., & Yalta, A. T. (2013). *Spreadsheets in the Cloud – Not Ready Yet*. *Journal of Statistical Software, 52*(7), 1–14.
+
+> Preeti, K. S., Singh, V., Bhatia, S., Preet Singh, E., & Gupta, M. S. (2011). *Spreadsheet on Cloud — Framework for Learning and Health Management System*.
+
+> Charao, A. S., Marin, F., Lima, J. C. D., Cortez da Rocha, C., & Steffenel, L. A. (2019).
+
+> Markova, O. (2019). *Application of Cloud-Based Spreadsheets to Neural Network Simulation*.
+
+> Birch, D. (2017). *The Future of Spreadsheets in the Big Data Era*.
 
 
 
