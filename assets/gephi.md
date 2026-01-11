@@ -16,3 +16,12 @@ Finalmente, la utilización de Gephi en la materia de Big Data promueve una comp
 
 En conclusión, Gephi representa un recurso valioso para enriquecer la materia de Big Data dentro de una maestría en Ciencia de Datos. Su capacidad para analizar y visualizar grandes volúmenes de datos relacionales permite complementar las tecnologías de procesamiento masivo, fortalecer el análisis exploratorio y potenciar la comprensión de fenómenos complejos, contribuyendo de manera significativa a la formación integral del científico de datos.
 
+Referencias 
+
+> https://gephi.org/features/ 
+
+> https://www.youtube.com/@gephi-official/videos 
+
+> https://www.youtube.com/@UPV/search?query=Gephi 
+
+
