@@ -1,4 +1,4 @@
-#### 
+#### De la hoja de cálculo al trabajo en la nube
 
 - Década de 1970: Bases de Datos Relacionales: En la década de 1970, se establecieron las bases para las bases de datos relacionales con la introducción del modelo relacional por parte de Edgar Codd.
 Surgieron sistemas de gestión de bases de datos (SGBD) como Oracle, IBM DB2 y Microsoft SQL Server, que se convirtieron en pilares para el almacenamiento y recuperación de datos.
