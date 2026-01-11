@@ -1,3 +1,4 @@
+#### Relación de Data Analysis, Data Analytics, Data Engineer, Data Scientist
 
 El Análisis de Datos es una disciplina fundamental en el mundo actual, marcado por la explosión de la información digital. Se trata de un proceso sistemático que implica la inspección, transformación y modelado de conjuntos de datos con el propósito de descubrir patrones, tendencias y conocimientos que puedan ser utilizados para la toma de decisiones informadas. En esencia, es el arte y la ciencia de convertir datos crudos en información valiosa.
 
@@ -148,10 +149,25 @@ Optimización de Decisiones Empresariales:
 - Identificar oportunidades para mejorar la eficiencia operativa.
 
 
+Claro, Shamara 😊. A continuación te presento una **tabla comparativa detallada** que describe la **relación, enfoque, responsabilidades y habilidades** entre **Data Analysis, Data Analytics, Data Engineer y Data Scientist**, mostrando cómo se complementan dentro de un ecosistema de datos.
 
+---
 
+| **Rol / Disciplina** | **Propósito principal**                                                 | **Tipo de preguntas que responde**                                         | **Responsabilidades clave**                                                                                                                       | **Datos con los que trabaja**                                     | **Herramientas y tecnologías comunes**                        | **Nivel de complejidad analítica** | **Relación con los otros roles**                                                                                                                                |
+| -------------------- | ----------------------------------------------------------------------- | -------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------- | ------------------------------------------------------------- | ---------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Data Analysis**    | Analizar datos existentes para entender qué ocurrió y por qué           | ¿Qué pasó? ¿Qué cambió? ¿Por qué ocurrió este resultado?                   | • Limpieza básica de datos<br>• Análisis descriptivo<br>• Generación de reportes y dashboards<br>• Identificación de patrones y anomalías         | Datos estructurados y ya procesados                               | Excel, SQL, Power BI, Tableau, Google Sheets, Python (pandas) | Bajo – Medio                       | Depende de los datos preparados por el **Data Engineer** y de métricas definidas por **Data Analytics**; sus resultados pueden alimentar análisis más avanzados |
+| **Data Analytics**   | Convertir datos en información accionable para la toma de decisiones    | ¿Qué está pasando? ¿Qué decisiones debemos tomar?                          | • Definición de KPIs<br>• Análisis exploratorio<br>• Interpretación de tendencias<br>• Apoyo a áreas de negocio                                   | Datos estructurados y semiestructurados                           | SQL, Power BI, Tableau, Python, R, herramientas BI            | Medio                              | Usa resultados de **Data Analysis**; colabora con **Data Scientist** para análisis predictivo y con **Data Engineer** para mejorar la calidad de datos          |
+| **Data Engineer**    | Diseñar, construir y mantener la infraestructura de datos               | ¿Cómo obtener, almacenar y procesar los datos de forma eficiente y segura? | • Ingesta de datos<br>• Diseño de pipelines ETL/ELT<br>• Construcción de Data Lakes y Data Warehouses<br>• Gobierno, calidad y seguridad de datos | Datos crudos, estructurados, semiestructurados y no estructurados | Python, SQL, Spark, Hadoop, Airflow, Kafka, AWS, Azure, GCP   | Alto (técnico)                     | Es la base del ecosistema: habilita el trabajo de **Data Analysis**, **Data Analytics** y **Data Scientist** asegurando disponibilidad y confiabilidad de datos |
+| **Data Scientist**   | Generar modelos avanzados para predicción, clasificación y optimización | ¿Qué va a pasar? ¿Qué debería hacerse?                                     | • Modelado estadístico y de ML<br>• Entrenamiento y validación de modelos<br>• Experimentación<br>• Interpretación de resultados complejos        | Grandes volúmenes de datos estructurados y no estructurados       | Python, R, TensorFlow, PyTorch, scikit-learn, Jupyter, MLflow | Muy alto                           | Consume datos preparados por **Data Engineer**; sus resultados pueden ser utilizados por **Data Analytics** para decisiones estratégicas                        |
 
+---
 
+Notas:
+
+* **Data Engineer** construye y mantiene la *infraestructura*.
+* **Data Analysis** explora y describe lo que ya ocurrió.
+* **Data Analytics** interpreta los datos para apoyar decisiones.
+* **Data Scientist** predice y optimiza mediante modelos avanzados.
 
 
 
