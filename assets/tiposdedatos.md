@@ -33,12 +33,116 @@ El proceso típico de ciencia de datos implica la recopilación, limpieza, anál
 - Big Data: Se refiere al manejo y análisis de conjuntos de datos extremadamente grandes y complejos que no pueden ser procesados con herramientas tradicionales de bases de datos.
 - Inteligencia Artificial (IA): A menudo se entrelaza con la ciencia de datos, ya que la IA utiliza técnicas de aprendizaje automático para permitir a las máquinas realizar tareas que normalmente requieren inteligencia humana.
 
-Relación de la ciencia de datos con big data
+#### Relación de la ciencia de datos con big data
 
-#### Proceso de Datos.
+Proceso de Datos
 
-Big Data: Se refiere a conjuntos de datos extremadamente grandes que superan la capacidad de las herramientas de procesamiento de datos convencionales. Esto puede incluir datos estructurados, no estructurados y semiestructurados. Las tecnologías de big data como Hadoop y Spark se utilizan para gestionar, almacenar y procesar estos volúmenes masivos de datos.
+- Big Data: Se refiere a conjuntos de datos extremadamente grandes que superan la capacidad de las herramientas de procesamiento de datos convencionales. Esto puede incluir datos estructurados, no estructurados y semiestructurados. Las tecnologías de big data como Hadoop y Spark se utilizan para gestionar, almacenar y procesar estos volúmenes masivos de datos.
+- Ciencia de Datos: Implica el uso de técnicas avanzadas de análisis de datos, estadísticas y aprendizaje automático para extraer conocimientos y patrones significativos de los datos. La ciencia de datos puede aprovechar las capacidades de procesamiento de big data para analizar grandes cantidades de información y descubrir relaciones complejas.
 
-Ciencia de Datos: Implica el uso de técnicas avanzadas de análisis de datos, estadísticas y aprendizaje automático para extraer conocimientos y patrones significativos de los datos. La ciencia de datos puede aprovechar las capacidades de procesamiento de big data para analizar grandes cantidades de información y descubrir relaciones complejas.
+Herramientas y Tecnologías
+
+- Big Data: Implica el uso de tecnologías específicas para gestionar y procesar grandes cantidades de datos. Esto puede incluir sistemas de almacenamiento distribuido, bases de datos NoSQL, y marcos de procesamiento paralelo como Apache Hadoop y Apache Spark.
+- Ciencia de Datos: Utiliza herramientas y técnicas para analizar datos y extraer información. Esto puede incluir lenguajes de programación como Python y R, bibliotecas como Pandas y scikit-learn, y entornos de desarrollo integrados (IDE) como Jupyter.
+
+Escalabilidad
+
+- Big Data: Se centra en la escalabilidad para manejar volúmenes masivos de datos y asegurar un rendimiento eficiente incluso cuando se trabaja con petabytes de información.
+- Ciencia de Datos: Puede aprovechar la escalabilidad proporcionada por las tecnologías de big data para analizar conjuntos de datos a gran escala y realizar modelos más complejos y precisos.
+
+Extracción de Valor
+
+- Big Data: Proporciona la infraestructura necesaria para almacenar y procesar grandes cantidades de datos, pero no necesariamente realiza análisis detallados o modelado predictivo por sí mismo.
+- Ciencia de Datos: Se centra en extraer información significativa de los datos, identificando patrones, construyendo modelos predictivos y proporcionando conocimientos accionables para la toma de decisiones.
+
+
+Nota: el big data proporciona la infraestructura para gestionar grandes volúmenes de datos, mientras que la ciencia de datos se centra en extraer conocimientos valiosos de esos datos. Juntas, estas disciplinas permiten abordar problemas complejos y tomar decisiones informadas basadas en datos a gran escala.
+
+Datos estructurados
+
+En el contexto de Big Data, los datos estructurados se refieren a la información organizada de manera formal y predefinida, que se presenta en un formato tabular con filas y columnas. Estos datos están altamente organizados y son fáciles de almacenar, procesar y analizar. A menudo se representan en bases de datos relacionales y se pueden manipular utilizando consultas SQL.
+
+Las características clave de los datos estructurados incluyen:
+
+- Formato Tabular: Los datos están organizados en tablas con filas y columnas, donde cada columna tiene un nombre y un tipo de dato específico.
+- Esquema Definido: Existe un esquema predefinido que describe la estructura de los datos, especificando qué tipo de datos se almacenan en cada columna.
+- Facilidad de Consulta: Se pueden realizar consultas mediante lenguajes como SQL para extraer información específica de la base de datos.
+
+Datos no estructurados
+
+Los datos no estructurados en el contexto del big data se refieren a información que no sigue un formato predefinido o no está organizada de manera tabular. A diferencia de los datos estructurados, que se almacenan en bases de datos relacionales y se presentan en filas y columnas, los datos no estructurados no tienen un formato uniforme y pueden incluir diversos tipos de información, como texto sin formato, imágenes, audio, video, mensajes de redes sociales, correos electrónicos, entre otros.
+
+Algunos ejemplos de datos no estructurados incluyen:
+
+- Texto sin formato: Documentos, informes, blogs, artículos, correos electrónicos, entre otros.
+- Imágenes: Fotografías, gráficos, mapas, escaneos, entre otros.
+- Audio: Archivos de sonido, grabaciones, llamadas telefónicas, entre otros.
+- Video: Grabaciones de video, transmisiones en vivo, clips, entre otros.
+- Datos de redes sociales: Mensajes, comentarios, tweets, publicaciones, entre otros.
+
+Tipos de formatos de datos estructurados en big data 
+
+- CSV (Comma-Separated Values): Este formato utiliza comas para separar los valores en cada fila, y las filas representan registros. Es simple y fácil de entender, pero puede no ser eficiente para conjuntos de datos muy grandes.
+
+- JSON (JavaScript Object Notation): Es un formato de intercambio de datos ligero y fácil de leer que utiliza pares de clave-valor. Es comúnmente utilizado en aplicaciones web y es fácilmente parseable por muchas tecnologías.
+
+- XML (eXtensible Markup Language): Similar a JSON, XML es un formato de marcado que utiliza etiquetas para estructurar la información. Es más verboso que JSON y ha sido ampliamente utilizado en la web y en integraciones de sistemas.
+
+- Avro: Es un formato de serialización binaria desarrollado dentro del proyecto Apache Hadoop. Avro es compacto, eficiente y permite la evolución de esquemas, lo que lo hace adecuado para sistemas Big Data.
+
+- Parquet: Un formato de almacenamiento columnar que está diseñado para ser eficiente en términos de almacenamiento y procesamiento. Parquet es ampliamente utilizado en entornos de Big Data, especialmente con herramientas como Apache Spark y Apache Hive.
+
+- ORC (Optimized Row Columnar): Similar a Parquet, es otro formato de almacenamiento columnar que se utiliza para mejorar el rendimiento en entornos Big Data, especialmente con tecnologías como Apache Hive.
+
+- Apache Arrow: Es una plataforma de procesamiento de datos en memoria que también define un formato de intercambio de datos columnar. Arrow se utiliza para facilitar la transferencia eficiente de datos entre diferentes sistemas.
+
+- HDF5 (Hierarchical Data Format version 5): Es un formato de archivo y conjunto de herramientas para gestionar datos complejos. Aunque no es exclusivo de Big Data, se utiliza en este contexto para almacenar grandes conjuntos de datos científicos y de otro tipo.
+
+- Protocol Buffers (protobuf): Un formato de serialización binaria desarrollado por Google. Es eficiente en términos de tamaño y se utiliza en diversas aplicaciones, incluidas aquellas en el ámbito de Big Data.
+
+Tipos de formatos de datos “no estructurados” en big data 
+
+- Texto sin formato (Plain Text): Datos en forma de texto simple, como documentos, correos electrónicos, tweets o cualquier otro contenido de texto sin una estructura rígida.
+
+- Datos de registro (Log Files): Archivos que registran eventos y actividades de sistemas, aplicaciones o servicios. Estos archivos pueden contener información diversa y suelen seguir un formato de texto.
+
+- Imágenes: Datos visuales en forma de imágenes, fotos o gráficos. Estos datos pueden almacenarse en formatos como JPEG, PNG, GIF, entre otros.
+
+- Audio y Vídeo: Datos en forma de archivos de audio o video. Los formatos comunes incluyen MP3, WAV para audio, y MP4, AVI para video.
+
+- Documentos Binarios: Archivos binarios que no siguen una estructura de texto, como documentos de Ofimática, archivos PDF, entre otros.
+
+- Datos de Redes Sociales: Información recopilada de plataformas de redes sociales, que pueden incluir texto, imágenes, videos, enlaces y otros tipos de contenido.
+
+- Datos de Sensores y Dispositivos IoT: Datos generados por sensores y dispositivos conectados a Internet de las Cosas (IoT). Estos datos pueden ser variados y no seguir una estructura específica.
+
+- Datos Geoespaciales: Información relacionada con la ubicación, como coordenadas geográficas, mapas y datos de geolocalización.
+
+- Secuencias de ADN: En el ámbito de la bioinformática, los datos genéticos pueden representarse en forma de secuencias de ADN, que son datos no estructurados y complejos.
+
+- Flujos de Datos en Tiempo Real: Datos que llegan continuamente y en tiempo real, como transmisiones de eventos en redes sociales, registros de servidores en tiempo real, etc.
+
+- Correo Electrónico: Los mensajes de correo electrónico, que pueden contener texto, archivos adjuntos y otros elementos multimedia.
+
+Nota: La gestión de datos no estructurados en entornos de Big Data puede ser un desafío debido a su diversidad y complejidad. Herramientas y plataformas, como Apache Hadoop y Apache Spark, se utilizan para procesar y analizar datos no estructurados en conjunción con datos estructurados.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
