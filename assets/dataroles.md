@@ -149,8 +149,6 @@ Optimización de Decisiones Empresariales:
 - Identificar oportunidades para mejorar la eficiencia operativa.
 
 
-Claro, Shamara 😊. A continuación te presento una **tabla comparativa detallada** que describe la **relación, enfoque, responsabilidades y habilidades** entre **Data Analysis, Data Analytics, Data Engineer y Data Scientist**, mostrando cómo se complementan dentro de un ecosistema de datos.
-
 ---
 
 | **Rol / Disciplina** | **Propósito principal**                                                 | **Tipo de preguntas que responde**                                         | **Responsabilidades clave**                                                                                                                       | **Datos con los que trabaja**                                     | **Herramientas y tecnologías comunes**                        | **Nivel de complejidad analítica** | **Relación con los otros roles**                                                                                                                                |
