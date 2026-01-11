@@ -16,3 +16,29 @@ No obstante, el uso de Flourish en proyectos de ciencia de datos exige una refle
 
 En conclusión, Flourish constituye una herramienta complementaria de alto valor para la Ciencia de Datos a nivel de maestría, especialmente en las fases de exploración y comunicación de resultados. Su fortaleza radica en su capacidad para transformar análisis complejos en narrativas visuales interactivas que facilitan la comprensión, validación y toma de decisiones. Utilizada de manera crítica y ética, Flourish no solo mejora la presentación de resultados, sino que fortalece una de las competencias clave del científico de datos moderno: **comunicar eficazmente el conocimiento derivado de los datos**.
 
+Características:
+
+- Interfaz Intuitiva: Flourish cuenta con una interfaz fácil de usar que no requiere conocimientos técnicos especializados. Esto facilita la creación de visualizaciones incluso para aquellos que no tienen experiencia en programación o diseño.
+
+- Diversidad de Plantillas: Ofrece una amplia variedad de plantillas predefinidas para gráficos, mapas y otros elementos visuales. Estas plantillas permiten a los usuarios elegir el formato más adecuado para representar sus datos.
+
+- Animaciones y Secuencias Temporales: Una característica distintiva de Flourish es su capacidad para crear animaciones y secuencias temporales. Esto es especialmente útil para visualizar cambios y tendencias a lo largo del tiempo, proporcionando una narrativa visual más rica.
+
+- Personalización Flexible: Permite una gran flexibilidad en la personalización de visualizaciones. Los usuarios pueden ajustar colores, fuentes, leyendas y otros elementos para adaptar la visualización a sus necesidades y preferencias específicas.
+
+- Integración con Datos en Vivo: Flourish facilita la integración de datos en vivo, lo que significa que las visualizaciones pueden actualizarse automáticamente cuando los datos subyacentes cambian. Esto es útil para mantener la información actualizada y relevante.
+
+- Colaboración en Tiempo Real: Ofrece capacidades de colaboración en tiempo real, permitiendo que múltiples usuarios trabajen juntos en una visualización. Esto es útil para equipos que necesitan colaborar en la creación y edición de gráficos y mapas.
+
+- Compatibilidad con Diversos Tipos de Datos: Flourish es capaz de manejar una variedad de tipos de datos, incluyendo datos numéricos, geoespaciales y de series temporales. Esto amplía su utilidad para diferentes tipos de análisis y representaciones visuales.
+
+- Publicación y Compartir Fácil: Facilita la publicación y el intercambio de visualizaciones. Los usuarios pueden compartir fácilmente sus creaciones a través de enlaces o incrustarlas en sitios web y presentaciones.
+
+- Seguridad y Privacidad: Flourish se preocupa por la seguridad y la privacidad de los datos. Ofrece opciones para controlar quién puede acceder y ver las visualizaciones, lo que es esencial al trabajar con información sensible.
+
+Referencias 
+
+> https://app.flourish.studio/templates
+
+> https://www.youtube.com/@madewithflourish/search?query=tutorial 
+
