@@ -226,14 +226,17 @@ IBM Cognos Analytics es una solución de inteligencia empresarial (BI) basada en
 Referencias
 - https://myibm.ibm.com/dashboard/​
 - https://www.ibm.com/products/cognos-command-center ​
-- https://www.youtube.com/watch?v=sWSoOCObVqE&list=PL_4RxtD-BL5sCbLma4TPNg5rW4jl5YcPj 
+- https://www.youtube.com/watch?v=sWSoOCObVqE&list=PL_4RxtD-BL5sCbLma4TPNg5rW4jl5YcPj
+- https://www.youtube.com/@IBMLatinoamerica/search?query=Cognos%20Analytics%20 
+
+__________________
 ​​
 No existe una versión de código abierto de la herramienta IBM Cognos Analytics. IBM Cognos Analytics es una solución de inteligencia empresarial (BI) comercial que ofrece una gama completa de capacidades para ayudar a las organizaciones a tomar mejores decisiones. La solución incluye una amplia gama de características y funcionalidades, como la preparación de datos, la creación de informes, la creación de paneles de control, el análisis de datos y la gestión de datos.​
 
 ​Jaspersoft Studio: herramienta de desarrollo de informes de código abierto que le permite crear informes personalizados y dinámicos.​
 ​
 
-https://www.youtube.com/@IBMLatinoamerica/search?query=Cognos%20Analytics%20 ​
+​
 ​
 
 Kibana: herramienta de visualización de datos de código abierto que le permite crear paneles de control interactivos a partir de datos de Logstash y Elasticsearch.​
