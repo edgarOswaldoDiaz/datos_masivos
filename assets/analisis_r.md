@@ -174,9 +174,8 @@ Formulación matemática del análisis de sentimientos
 
 Sea un **corpus de documentos** definido como:
 
-$
- \mathcal{D} = { d_1, d_2, \dots, d_N }
-$
+$$|\mathcal{D} = { d_1, d_2, \dots, d_N }
+|$$
 
 donde cada documento ( d_i ) es una secuencia de palabras (tokens):
 
