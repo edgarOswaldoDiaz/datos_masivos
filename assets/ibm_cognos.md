@@ -8,8 +8,6 @@ Para acceder a Cognos Analytics, primero debes crear una cuenta en la plataforma
 
 Cognos Analytics admite una amplia gama de formatos de datos, incluidos Excel y CSV. Para preparar tus archivos para su análisis, asegúrate de que estén bien formateados y que los datos estén organizados de manera lógica. Puedes usar la función de limpieza de datos de Cognos Analytics para corregir errores y eliminar valores inconsistentes.
 
-_____________________________
-
 #### Utilizar información de archivos Excel y CSV en Cognos Analytics​
 
 Cognos Analytics te permite aprovechar la información de archivos Excel y CSV para crear informes y análisis completos. Aquí te presento un resumen de las opciones disponibles:​
