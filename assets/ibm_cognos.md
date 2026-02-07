@@ -252,5 +252,18 @@ Preparación de datos: proporciona herramientas para preparar y limpiar datos de
 - Gestión de datos: acceso, autenticación, autorización, la auditoría de datos y la administración de versiones.​​
 
 ​​
+No existe una versión de código abierto de la herramienta IBM Cognos Analytics. IBM Cognos Analytics es una solución de inteligencia empresarial (BI) comercial que ofrece una gama completa de capacidades para ayudar a las organizaciones a tomar mejores decisiones. La solución incluye una amplia gama de características y funcionalidades, como la preparación de datos, la creación de informes, la creación de paneles de control, el análisis de datos y la gestión de datos.​
+
+​
+
+Jaspersoft Studio: herramienta de desarrollo de informes de código abierto que le permite crear informes personalizados y dinámicos.​
+
+​
+
+Kibana: herramienta de visualización de datos de código abierto que le permite crear paneles de control interactivos a partir de datos de Logstash y Elasticsearch.​
+
+​
+
+Matplotlib: biblioteca de trazado de gráficos de código abierto que le permite crear gráficos y diagramas a partir de datos.
 
 
