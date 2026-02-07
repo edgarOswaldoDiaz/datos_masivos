@@ -200,6 +200,9 @@ El análisis de sentimientos es un puente entre:
 * Ciencias Sociales
 
 Nota: En R, permite a los estudiantes **cerrar el ciclo completo**: desde la limpieza del dato hasta la interpretación analítica.
+_______________________
+Referencias 
 
+> James, G., Witten, D., Hastie, T., & Tibshirani, R. (2021). An introduction to statistical learning: With applications in R (2nd ed.). Springer.
 
-Tú dime 👉
+> Goodfellow, I., Bengio, Y., & Courville, A. (2016). Deep learning. MIT Press. 
