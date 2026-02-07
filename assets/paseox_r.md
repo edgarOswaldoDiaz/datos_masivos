@@ -221,3 +221,10 @@ help(mean)
 example(mean)
 ```
 
+________________________
+
+Referencia
+
+> R Core Team. (2023). R: A language and environment for statistical computing. R Foundation for Statistical Computing. https://www.R-project.org/
+
+> Wickham, H., & Grolemund, G. (2017). R for data science: Import, tidy, transform, visualize, and model data. O’Reilly Media.
