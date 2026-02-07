@@ -252,12 +252,21 @@ Referencias
 - https://www.youtube.com/watch?v=4Zy-9W3PuM8&list=PL5NudtWaQ9l4LEzDAU-DdBQAp21lLH00r   ​
 - https://www.youtube.com/@JaspersoftBISuite/search?query=tutorial ​
 - Repositorio Git – Contenedor https://github.com/TIBCOSoftware/js-docker/tree/main/jaspersoft-containers ​​
-
 ​
 #### Kibana 
 
+Es una herramienta de visualización y análisis de datos diseñada para trabajar con Elasticsearch, que es un motor de búsqueda y análisis de datos distribuido. A continuación, se presentan algunas de las características clave de Kibana:​
 
-​
+​- Interfaz Gráfica de Usuario (GUI): proporciona una interfaz web fácil de usar que permite a los usuarios interactuar con los datos almacenados en Elasticsearch. La interfaz gráfica facilita la creación de paneles, gráficos y tablas de datos.​
+​- Visualizaciones Personalizadas: permite la creación de una variedad de visualizaciones personalizadas, como gráficos de barras, líneas, áreas, tortas, mapas y más. Estas visualizaciones ayudan a comprender los datos de una manera más clara y significativa.​
+- Paneles de Tablero: permite organizar visualizaciones en paneles de tablero. Los paneles se pueden personalizar y organizar para crear dashboards interactivos que proporcionen una visión general y detallada de los datos.​
+- Consulta y Filtrado de Datos: permite a los usuarios realizar consultas y filtrar datos para obtener información específica. Kibana utiliza el lenguaje de consulta de Elasticsearch (Query DSL) para realizar búsquedas avanzadas en los datos.​
+- Integración con Elasticsearch: facilita la visualización y el análisis de los datos indexados en Elasticsearch. Se puede acceder a Kibana directamente desde el navegador web.​
+- Herramienta de Descubrimiento: Proporciona una herramienta de descubrimiento que permite explorar y buscar datos de manera interactiva. Esta función es útil para entender la estructura de los datos y realizar análisis ad-hoc.​
+- Gestión de Usuarios y Accesos: ofrece capacidades de gestión de usuarios y roles para controlar el acceso a las visualizaciones y dashboards. Esto permite personalizar los niveles de acceso y garantizar la seguridad de los datos.​
+- Soporte para Diversas Fuentes de Datos: Además de Elasticsearch, Kibana puede conectarse a diversas fuentes de datos para la visualización y el análisis, ampliando su versatilidad y utilidad.​
+- API RESTful: permite la automatización de tareas y la integración con otras aplicaciones y sistemas.​
+- Escalabilidad: permite ser escalable y puede manejar grandes volúmenes de datos. Es una herramienta valiosa para entornos donde la escalabilidad y el rendimiento son críticos.
 
 #### Matplotlib 
 
