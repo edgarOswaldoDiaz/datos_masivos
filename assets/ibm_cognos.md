@@ -256,7 +256,6 @@ Referencias
 #### Kibana 
 
 Es una herramienta de visualización y análisis de datos diseñada para trabajar con Elasticsearch, que es un motor de búsqueda y análisis de datos distribuido. A continuación, se presentan algunas de las características clave de Kibana:​
-
 ​- Interfaz Gráfica de Usuario (GUI): proporciona una interfaz web fácil de usar que permite a los usuarios interactuar con los datos almacenados en Elasticsearch. La interfaz gráfica facilita la creación de paneles, gráficos y tablas de datos.​
 ​- Visualizaciones Personalizadas: permite la creación de una variedad de visualizaciones personalizadas, como gráficos de barras, líneas, áreas, tortas, mapas y más. Estas visualizaciones ayudan a comprender los datos de una manera más clara y significativa.​
 - Paneles de Tablero: permite organizar visualizaciones en paneles de tablero. Los paneles se pueden personalizar y organizar para crear dashboards interactivos que proporcionen una visión general y detallada de los datos.​
@@ -279,7 +278,6 @@ Referencias
 #### Matplotlib 
 
 Es una biblioteca de visualización de datos en Python ampliamente utilizada para crear gráficos 2D y 3D de alta calidad. Aquí tienes algunas de las características clave de Matplotlib:​
-
 - Facilidad de Uso: proporciona una interfaz fácil de usar para la creación de gráficos, lo que facilita a los usuarios la generación rápida de visualizaciones.​
 - Compatibilidad con Diversos Formatos de Gráficos: permite la creación de una amplia variedad de gráficos, incluyendo líneas, barras, dispersión, histogramas, gráficos de torta, superficies 3D, entre otros.​
 - Personalización: ofrece una gran flexibilidad para personalizar todos los aspectos de los gráficos, incluyendo colores, estilos de línea, marcadores, etiquetas y títulos.​
@@ -298,7 +296,6 @@ Referencias
 
 #### Grafana 
 Es una plataforma de análisis y visualización de datos de código abierto que se utiliza comúnmente para monitoreo y observabilidad. A continuación, se detallan algunas de las características clave de Grafana:​
-
 ​- Paneles Interactivos: permite crear paneles interactivos para visualizar datos en tiempo real. Puedes personalizar gráficos, tablas y otros elementos visuales para representar tus datos de manera efectiva.​
 - Conectores de Datos: compatible con una amplia variedad de fuentes de datos, incluyendo bases de datos SQL, bases de datos NoSQL, series temporales, servicios en la nube y más. Entre los conectores más comunes se encuentran Prometheus, InfluxDB, Elasticsearch, MySQL, PostgreSQL y CloudWatch de AWS.​
 - Dashboards Personalizables: Los usuarios pueden crear dashboards personalizados con múltiples paneles para tener una visión consolidada de los datos. Esto es especialmente útil para la monitorización de sistemas complejos.​
