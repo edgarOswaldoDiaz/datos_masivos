@@ -10,7 +10,7 @@ El **análisis de sentimientos** es una técnica de **Procesamiento de Lenguaje 
 
 Y, en enfoques más avanzados:
 
-* Emociones específicas (alegría, enojo, tristeza, miedo, sorpresa, etc.)
+* Emociones específicas (alegría, enojo, tristeza, miedo, sorpresa, entre otros)
 * Intensidad del sentimiento
 * Polaridad continua (de muy negativo a muy positivo)
 
@@ -195,9 +195,9 @@ $$[
 
 tal que:
 
-[
+$$[
 T_i = { t_{i1}, t_{i2}, \dots, t_{iK_i} }
-]
+]$$
 
 donde ( T_i ) es el conjunto de tokens normalizados del documento ( d_i ) (minúsculas, sin signos de puntuación ni *stopwords*).
 
@@ -207,9 +207,9 @@ Léxico de sentimientos
 
 Sea un **léxico de sentimientos** definido como una función:
 
-[
+$$[
 s: V \rightarrow \mathbb{R}
-]
+]$$
 
 donde:
 
@@ -223,9 +223,9 @@ Ejemplos:
 
 Para palabras que no pertenecen al léxico:
 
-[
+$$[
 s(w) = 0
-]
+]$$
 
 ---
 
@@ -233,9 +233,9 @@ Puntaje de sentimiento por documento
 
 El **sentimiento total** del documento ( d_i ) se define como:
 
-[
+$$[
 S(d_i) = \sum_{j=1}^{K_i} s(t_{ij})
-]
+]$$
 
 Este valor representa la **polaridad agregada** del texto.
 
@@ -245,9 +245,9 @@ Normalización del sentimiento
 
 Para comparar documentos de distinta longitud, se define el **sentimiento normalizado**:
 
-[
+$$[
 \hat{S}(d_i) = \frac{1}{K_i} \sum_{j=1}^{K_i} s(t_{ij})
-]
+]$$
 
 Esto permite interpretar el sentimiento promedio por palabra.
 
@@ -257,14 +257,14 @@ Clasificación del sentimiento
 
 Se define una función de clasificación:
 
-[
+$$[
 C(d_i) =
 \begin{cases}
 \text{Positivo} & \text{si } \hat{S}(d_i) > \delta \
 \text{Negativo} & \text{si } \hat{S}(d_i) < -\delta \
 \text{Neutral}  & \text{si } |\hat{S}(d_i)| \le \delta
 \end{cases}
-]
+]$$
 
 donde ( \delta \ge 0 ) es un umbral de sensibilidad.
 
@@ -274,37 +274,37 @@ Análisis emocional (léxico NRC)
 
 Si el léxico incluye **emociones**, definimos:
 
-[
+$$[
 \mathcal{E} = { e_1, e_2, \dots, e_L }
-]
+]$$
 
 Sea una función:
 
-[
+$$[
 s_e: V \rightarrow {0,1}
-]
+]$$
 
 tal que:
 
-[
+$$[
 s_e(w) =
 \begin{cases}
 1 & \text{si } w \text{ está asociada a la emoción } e \
 0 & \text{en otro caso}
 \end{cases}
-]
+]$$
 
 El puntaje emocional del documento es:
 
-[
+$$[
 E_e(d_i) = \sum_{j=1}^{K_i} s_e(t_{ij})
-]
+]$$
 
 Esto genera un **vector de emociones**:
 
-[
+$$[
 \mathbf{E}(d_i) = \left[ E_{e_1}(d_i), E_{e_2}(d_i), \dots, E_{e_L}(d_i) \right]
-]
+]$$
 
 ---
 
@@ -312,9 +312,9 @@ Interpretación vectorial del sentimiento
 
 El documento puede representarse como:
 
-[
+$$[
 d_i \rightarrow \left( \hat{S}(d_i), \mathbf{E}(d_i) \right)
-]
+]$$
 
 donde:
 
@@ -327,9 +327,9 @@ Extensión a modelos supervisados (opcional)
 
 En aprendizaje automático, el sentimiento se modela como:
 
-[
+$$[
 \hat{y}_i = f(\mathbf{x}_i)
-]
+]$$
 
 donde:
 
