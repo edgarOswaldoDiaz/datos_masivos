@@ -271,13 +271,45 @@ Es una herramienta de visualización y análisis de datos diseñada para trabaja
 Referencias
 - https://cloud.elastic.co/home​
 - https://www.elastic.co/es/downloads/kibana​
-- Contenedor https://www.elastic.co/guide/en/kibana/current/docker.html#docker ​
-Videos Tutoriales ​
+- Contenedor https://www.elastic.co/guide/en/kibana/current/docker.html#docker ​​
 - https://www.youtube.com/watch?v=MhC3ZFY5dNI​
 - https://www.youtube.com/@AprenderBigData​
 - https://www.youtube.com/@OfficialElasticCommunity/search?query=kibana 
 
 #### Matplotlib 
 
+Es una biblioteca de visualización de datos en Python ampliamente utilizada para crear gráficos 2D y 3D de alta calidad. Aquí tienes algunas de las características clave de Matplotlib:​
 
+- Facilidad de Uso: proporciona una interfaz fácil de usar para la creación de gráficos, lo que facilita a los usuarios la generación rápida de visualizaciones.​
+- Compatibilidad con Diversos Formatos de Gráficos: permite la creación de una amplia variedad de gráficos, incluyendo líneas, barras, dispersión, histogramas, gráficos de torta, superficies 3D, entre otros.​
+- Personalización: ofrece una gran flexibilidad para personalizar todos los aspectos de los gráficos, incluyendo colores, estilos de línea, marcadores, etiquetas y títulos.​
+- Soporte para Múltiples Plataformas: compatible con múltiples sistemas operativos, como Ms. Windows, Linux y macOS.​
+- Integración con NumPy: manipulación eficiente de datos, ya que puede aceptar arreglos NumPy como entrada para la generación de gráficos.​
+- Múltiples Interfaces de Usuario: proporciona interfaces para la creación de gráficos a través de scripts, en una interfaz interactiva (como en la consola de IPython) y también para su uso en aplicaciones GUI.​
+- Calidad de Impresión: Los gráficos generados por Matplotlib son de alta calidad y se pueden guardar en varios formatos, como PNG, JPEG, PDF y SVG, lo que facilita su uso en informes, presentaciones y publicaciones.​
+- Soporte para LaTeX: Permite la integración de fórmulas matemáticas utilizando el formato LaTeX en los títulos y etiquetas de los gráficos.​
+- Documentación Extensa: cuenta con una documentación detallada y ejemplos prácticos que ayudan a los usuarios a comprender y utilizar sus características de manera efectiva.​
+- Comunidad Activa: tiene una comunidad activa de usuarios y desarrolladores que proporcionan soporte y contribuyen con nuevas funcionalidades y mejoras.
 
+Referencias
+- https://pypi.org/project/matplotlib/
+- https://www.youtube.com/watch?v=WwwfLupJkok&list=PLDn1Q60pcV4k1li66_pZNcuwfOxenzOuy
+- En el entorno de jupyter notebooks ejecutar el comando pip install matplotlib
+
+#### Grafana 
+Es una plataforma de análisis y visualización de datos de código abierto que se utiliza comúnmente para monitoreo y observabilidad. A continuación, se detallan algunas de las características clave de Grafana:​
+
+​- Paneles Interactivos: permite crear paneles interactivos para visualizar datos en tiempo real. Puedes personalizar gráficos, tablas y otros elementos visuales para representar tus datos de manera efectiva.​
+- Conectores de Datos: compatible con una amplia variedad de fuentes de datos, incluyendo bases de datos SQL, bases de datos NoSQL, series temporales, servicios en la nube y más. Entre los conectores más comunes se encuentran Prometheus, InfluxDB, Elasticsearch, MySQL, PostgreSQL y CloudWatch de AWS.​
+- Dashboards Personalizables: Los usuarios pueden crear dashboards personalizados con múltiples paneles para tener una visión consolidada de los datos. Esto es especialmente útil para la monitorización de sistemas complejos.​
+- Alertas: permite configurar alertas basadas en umbrales y condiciones específicas. Cuando se alcanzan o superan estos umbrales, se pueden enviar notificaciones por correo electrónico, Slack, Telegram, entre otros canales.​
+- Explorador de Datos (Explore): ofrece una herramienta llamada "Explore" que facilita la exploración y consulta de datos desde diversas fuentes directamente dentro de la interfaz de usuario.​
+- Integración con LDAP/AD: es compatible con la autenticación y autorización mediante LDAP y Active Directory, facilitando la integración con sistemas de gestión de identidad existentes.​
+- API y Plugins: permite la integración con otras aplicaciones y sistemas. Además, cuenta con un sistema de plugins que amplía sus capacidades y permite la integración con diversas tecnologías.​
+- Templating: permite la creación de dashboards dinámicos mediante la utilización de variables y plantillas. Esto facilita la creación de dashboards flexibles y adaptables a diferentes contextos.​
+- Soporte para Gráficos y Tablas: ofrece una amplia variedad de opciones para visualizar datos, incluyendo gráficos de series temporales, barras, pastel, mapas de calor, y tablas.​
+- Multi-Organización: Grafana permite gestionar múltiples organizaciones, lo que es útil para entornos donde diferentes equipos necesitan acceder y visualizar sus propios conjuntos de datos.
+
+​Referencias 
+- https://grafana.com/grafana/download?platform=docker​
+- https://www.youtube.com/watch?v=g8I9i1dKqYI&t=10s
