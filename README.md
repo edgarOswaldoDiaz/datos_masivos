@@ -7,7 +7,7 @@
 - 1.4 El arte de la visualización de los datos: [Flourish](assets/flourish.md) – [Gapminder](assets/gapminder.md) - [Gephi](assets/gephi.md).
 - 1.5 [Casos prácticos](assets/casouso_unidad1.md)
 
-#### Unidad 2 Descubrimientos en los datos a través de Cognos analytics de IBM.
+#### Unidad 2 [Descubrimientos en los datos a través de Cognos analytics de IBM](assets/ibm_cognos.md)
 - 2.1 Creación de cuenta en Cognos Analytics y exploración de la plataforma de IBM
 - 2.2 Preparación de archivos en Excel y CSV
 - 2.3 Algunas fuentes de información para macro análisis
