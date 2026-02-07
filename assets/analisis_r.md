@@ -1,10 +1,6 @@
-¡Va! Este es un **temón** para una maestría en Ciencia de Datos 😄. Te dejo una explicación **clara, profunda y con enfoque académico–práctico**, pensada justo para estudiantes que ya programan y quieren entender el *por qué* y el *cómo* del análisis de sentimientos en **R**.
-
----
-
 ## 3.1 Análisis de sentimientos en **R**
 
-### 1. ¿Qué es el análisis de sentimientos?
+¿Qué es el análisis de sentimientos?
 
 El **análisis de sentimientos** es una técnica de **Procesamiento de Lenguaje Natural (NLP)** que permite identificar, extraer y cuantificar la **carga emocional** presente en un texto. Su objetivo principal es clasificar opiniones, emociones o actitudes expresadas en lenguaje natural, comúnmente en categorías como:
 
@@ -26,13 +22,11 @@ En ciencia de datos, esta técnica se utiliza para analizar grandes volúmenes d
 * Reseñas de productos o servicios
 * Noticias y documentos institucionales
 
----
-
-### 2. Enfoques principales del análisis de sentimientos
+Enfoques principales del análisis de sentimientos
 
 En **R**, el análisis de sentimientos se puede abordar principalmente desde dos enfoques:
 
-#### 2.1 Enfoque basado en léxicos
+2.1 Enfoque basado en léxicos
 
 Este enfoque utiliza **diccionarios de palabras** previamente etiquetadas con un valor emocional.
 
@@ -55,19 +49,20 @@ Limitaciones:
 * Dificultad con sarcasmo o ironía
 * Dependencia del idioma y dominio
 
----
-
-#### 2.2 Enfoque basado en aprendizaje automático
+2.2 Enfoque basado en aprendizaje automático
 
 Aquí se entrenan **modelos supervisados o no supervisados** usando textos previamente etiquetados.
 
-Ejemplos:
+Ejemplos: Comparativa de Modelos de Aprendizaje Automático
 
-* Regresión logística
-* Naive Bayes
-* SVM
-* Random Forest
-* Modelos más avanzados (embeddings, deep learning)
+| Algoritmo | Concepto Clave | Funcionamiento | Ventajas | Desventajas / Casos de Uso |
+| --- | --- | --- | --- | --- |
+| **Regresión Logística** | Probabilidad binaria | Utiliza la función sigmoide:  para mapear cualquier valor a un rango entre 0 y 1. | Extremadamente rápido, fácil de interpretar y excelente "línea base" (baseline). | Solo modela relaciones lineales. Mal desempeño si hay mucha complejidad no lineal. |
+| **Naive Bayes** | Probabilidad Condicional | Basado en el Teorema de Bayes. Asume que todas las características son **independientes** entre sí (de ahí lo "naive" o ingenuo). | Muy eficiente con grandes volúmenes de datos y texto. Funciona bien con pocas muestras. | La suposición de independencia rara vez se cumple en la realidad. Ideal para **Spam Filters**. |
+| **SVM** (Support Vector Machines) | Margen Máximo | Busca el hiperplano que mejor separa las clases maximizando la distancia entre los puntos más cercanos (vectores de soporte). | Muy eficaz en espacios de alta dimensionalidad. Gracias al "Kernel Trick" maneja datos no lineales. | Lento en conjuntos de datos muy grandes. Difícil de tunear (elegir el kernel correcto). |
+| **Random Forest** | Ensamble (Bagging) | Crea un "bosque" de múltiples árboles de decisión entrenados con subconjuntos aleatorios de datos y promedia sus votos. | Muy robusto, evita el sobreajuste (overfitting) y maneja bien datos faltantes o valores atípicos. | Puede ser lento en la predicción si el bosque es muy grande. Es una "caja negra" comparado con un solo árbol. |
+| **Modelos Avanzados** (Deep Learning) | Representación Jerárquica | Redes neuronales con muchas capas ocultas que aprenden características automáticamente (desde bordes hasta caras). | Rendimiento superior en datos no estructurados (imágenes, audio, texto complejo). | Requieren **muchísimos datos** y una gran potencia de cómputo (GPUs). Muy difíciles de interpretar. |
+
 
 Ventajas:
 
@@ -82,9 +77,7 @@ Limitaciones:
 
 > En una materia de **“R para ciencia de datos”**, normalmente se inicia con el **enfoque léxico** y después se introduce el **aprendizaje automático**.
 
----
-
-### 3. Preparación del texto (Text Mining)
+Preparación del texto (Text Mining)
 
 Antes de analizar sentimientos, el texto debe pasar por un proceso de **preprocesamiento**, ya que el lenguaje natural es altamente ruidoso.
 
@@ -99,50 +92,47 @@ Pasos típicos en R:
 
 Este proceso es crucial porque **impacta directamente en la calidad del análisis**.
 
----
 
-### 4. Paquetes clave en R para análisis de sentimientos
+Paquetes clave en R para análisis de sentimientos
 
 R cuenta con un ecosistema muy sólido para NLP. Los paquetes más utilizados son:
 
-#### 4.1 `tidytext`
+ `tidytext`
 
 * Integra NLP con el enfoque *tidy data*
 * Facilita la tokenización y análisis léxico
 * Compatible con `dplyr` y `ggplot2`
 
-#### 4.2 `textdata`
+ `textdata`
 
 * Proporciona acceso a léxicos predefinidos
 * Descarga y gestiona diccionarios de sentimiento
 
-#### 4.3 `tm` y `quanteda`
+ `tm` y `quanteda`
 
 * Manejo de corpus de texto
 * Transformaciones y análisis estadístico del texto
 
-#### 4.4 `syuzhet`
+ `syuzhet`
 
 * Enfocado en análisis emocional
 * Basado en modelos narrativos y emociones
 
----
-
-### 5. Léxicos de sentimiento más usados en R
+Léxicos de sentimiento más usados en R
 
 En el enfoque léxico, R permite usar distintos diccionarios, cada uno con un propósito diferente:
 
-#### 🔹 AFINN
+AFINN
 
 * Asigna valores numéricos de −5 a +5
 * Permite medir intensidad del sentimiento
 
-#### 🔹 Bing
+ Bing
 
 * Clasifica palabras como positivas o negativas
 * Simple y directo
 
-#### 🔹 NRC
+ NRC
 
 * Clasifica palabras en:
 
@@ -151,9 +141,7 @@ En el enfoque léxico, R permite usar distintos diccionarios, cada uno con un pr
 
 La elección del léxico depende del **objetivo del análisis**.
 
----
-
-### 6. Flujo típico de análisis de sentimientos en R
+Flujo típico de análisis de sentimientos en R
 
 Un análisis estándar sigue estas etapas:
 
@@ -170,9 +158,7 @@ Este flujo permite:
 * Comparar periodos de tiempo
 * Identificar palabras que más influyen en la polaridad
 
----
-
-### 7. Visualización de resultados
+Visualización de resultados
 
 El análisis de sentimientos suele complementarse con visualizaciones como:
 
@@ -183,9 +169,7 @@ El análisis de sentimientos suele complementarse con visualizaciones como:
 
 En R, estas visualizaciones se integran fácilmente con `ggplot2`.
 
----
-
-### 8. Casos de uso en ciencia de datos
+Casos de uso en ciencia de datos
 
 Algunos ejemplos relevantes para una maestría:
 
@@ -195,9 +179,7 @@ Algunos ejemplos relevantes para una maestría:
 * Análisis de retroalimentación de usuarios en plataformas digitales
 * Estudios sociales basados en texto no estructurado
 
----
-
-### 9. Retos y consideraciones éticas
+Retos y consideraciones éticas
 
 Aspectos críticos que deben discutirse en clase:
 
@@ -208,9 +190,7 @@ Aspectos críticos que deben discutirse en clase:
 
 > El análisis de sentimientos **no mide emociones reales**, sino **patrones lingüísticos**.
 
----
-
-### 10. Conexión con la ciencia de datos
+Conexión con la ciencia de datos
 
 El análisis de sentimientos es un puente entre:
 
@@ -219,15 +199,7 @@ El análisis de sentimientos es un puente entre:
 * Inteligencia Artificial
 * Ciencias Sociales
 
-En R, permite a los estudiantes **cerrar el ciclo completo**: desde la limpieza del dato hasta la interpretación analítica.
+Nota: En R, permite a los estudiantes **cerrar el ciclo completo**: desde la limpieza del dato hasta la interpretación analítica.
 
----
-
-Si quieres, en el siguiente paso puedo:
-
-* Convertir esto en **contenido tipo diapositivas**
-* Agregar **ejemplos prácticos en R**
-* Proponer una **actividad o práctica de laboratorio**
-* Adaptarlo a un **contexto institucional (INEGI, encuestas, datos públicos)**
 
 Tú dime 👉
