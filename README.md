@@ -7,8 +7,6 @@
 - 1.4 El arte de la visualización de los datos: [Flourish](assets/flourish.md) – [Gapminder](assets/gapminder.md) - [Gephi](assets/gephi.md).
 - 1.5 Casos prácticos
 
-Resumen: Visión integral del ecosistema de Big Data y la ciencia de datos. Inicia diferenciando datos estructurados y no estructurados, destacando su relevancia en entornos modernos. Luego presenta los principales roles del ámbito analítico, desde el análisis de datos hasta la ingeniería y la ciencia de datos. Explora la evolución del trabajo, pasando de hojas de cálculo a plataformas en la nube. Introduce herramientas clave de visualización como Flourish, Gapminder y Gephi para comunicar hallazgos de manera efectiva. Finalmente, se revisan casos prácticos que permiten aplicar los conceptos fundamentales en escenarios reales.
-
 #### Unidad 2 Descubrimientos en los datos a través de Cognos analytics de IBM.
 - 2.1 Creación de cuenta en Cognos Analytics y exploración de la plataforma de IBM
 - 2.2 Preparación de archivos en Excel y CSV
