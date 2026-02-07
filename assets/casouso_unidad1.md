@@ -46,13 +46,13 @@ Este caso muestra cómo Big Data:
 * Permite decisiones predictivas y no reactivas
 * Genera ventajas competitivas sostenibles
 
+_______________________________
 
+#### Caso de uso 2
 
-## Caso de uso 2
+Personalización de servicios financieros mediante Big Data en una fintech
 
-### Personalización de servicios financieros mediante Big Data en una fintech
-
-### Contexto
+Contexto
 
 Una **fintech** ofrece créditos y servicios financieros digitales a miles de usuarios. El reto principal es:
 
@@ -60,9 +60,7 @@ Una **fintech** ofrece créditos y servicios financieros digitales a miles de us
 * Ofrecer productos personalizados
 * Reducir fraudes y morosidad
 
----
-
-### Fuentes de datos (Big Data)
+Fuentes de datos (Big Data)
 
 La empresa analiza:
 
@@ -74,9 +72,7 @@ La empresa analiza:
 
 Estos datos son masivos, heterogéneos y de alta velocidad.
 
----
-
-### Aplicación de Ciencia de Datos
+Aplicación de Ciencia de Datos
 
 Se utilizan:
 
@@ -85,9 +81,7 @@ Se utilizan:
 * Sistemas de **detección de fraude en tiempo real**
 * Modelos de recomendación de productos financieros
 
----
-
-### Beneficios empresariales
+Beneficios empresariales
 
 * Aprobación de créditos más rápida y precisa
 * Reducción de riesgos financieros
@@ -95,9 +89,7 @@ Se utilizan:
 * Mayor lealtad y retención de usuarios
 * Incremento de ingresos por productos personalizados
 
----
-
-### Valor para Big Data & Data Science
+Valor para Big Data & Data Science
 
 Este caso evidencia cómo:
 
