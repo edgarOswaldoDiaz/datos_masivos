@@ -8,14 +8,14 @@
 - 1.5 [Casos prácticos](assets/casouso_unidad1.md)
 
 #### Unidad 2 [Descubrimientos en los datos a través de Cognos analytics de IBM](assets/ibm_cognos.md)
-- 2.1 Creación de cuenta en Cognos Analytics y exploración de la plataforma de IBM
-- 2.2 Preparación de archivos en Excel y CSV
-- 2.3 Algunas fuentes de información para macro análisis
+- 2.1 Creación de cuenta en Cognos Analytics y exploración de la plataforma de IBM(assets/ibm_cognos.md)
+- 2.2 Preparación de archivos en Excel y CSV(assets/ibm_cognos.md)
+- 2.3 Algunas fuentes de información para macro análisis(assets/ibm_cognos.md)
 - 2.4 Visualización de datos y preparación de reportes profesionales:
-- 2.4.1 Construir tableros dinámicos (dashboards)
-- 2.4.2 Descubrir relaciones e identificar patrones en los datos
-- 2.4.3 Crear presentaciones siguiendo una narrativa temporal (stories)
-- 2.4.4 Casos prácticos.
+- 2.4.1 [Construir tableros dinámicos (dashboards)](assets/ibm_cognos.md)
+- 2.4.2 [Descubrir relaciones e identificar patrones en los datos](assets/ibm_cognos.md)
+- 2.4.3 [Crear presentaciones siguiendo una narrativa temporal (stories)](assets/ibm_cognos.md)
+- 2.4.4 [Casos prácticos.](assets/ibm_cognos.md)
 
 #### Unidad 3 “R” para ciencia de datos.
 - 3.1 Análisis de sentimientos en “R”
