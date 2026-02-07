@@ -268,6 +268,15 @@ Es una herramienta de visualización y análisis de datos diseñada para trabaja
 - API RESTful: permite la automatización de tareas y la integración con otras aplicaciones y sistemas.​
 - Escalabilidad: permite ser escalable y puede manejar grandes volúmenes de datos. Es una herramienta valiosa para entornos donde la escalabilidad y el rendimiento son críticos.
 
+Referencias
+- https://cloud.elastic.co/home​
+- https://www.elastic.co/es/downloads/kibana​
+- Contenedor https://www.elastic.co/guide/en/kibana/current/docker.html#docker ​
+Videos Tutoriales ​
+- https://www.youtube.com/watch?v=MhC3ZFY5dNI​
+- https://www.youtube.com/@AprenderBigData​
+- https://www.youtube.com/@OfficialElasticCommunity/search?query=kibana 
+
 #### Matplotlib 
 
 
