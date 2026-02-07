@@ -233,16 +233,33 @@ __________________
 ​​
 No existe una versión de código abierto de la herramienta IBM Cognos Analytics. IBM Cognos Analytics es una solución de inteligencia empresarial (BI) comercial que ofrece una gama completa de capacidades para ayudar a las organizaciones a tomar mejores decisiones. La solución incluye una amplia gama de características y funcionalidades, como la preparación de datos, la creación de informes, la creación de paneles de control, el análisis de datos y la gestión de datos.​
 
-​Jaspersoft Studio: herramienta de desarrollo de informes de código abierto que le permite crear informes personalizados y dinámicos.​
-​
+#### Jaspersoft Studio 
+
+Es una herramienta de diseño de informes que forma parte de la suite de Business Intelligence (BI) de Jaspersoft, una plataforma de código abierto para la creación, distribución e interacción con informes y paneles de control. Jaspersoft Studio proporciona una interfaz gráfica para el diseño y la creación de informes, lo que facilita a los usuarios la generación de informes visuales y detallados basados en datos.​
+
+- Diseño Visual de Informes: Ofrece una interfaz gráfica intuitiva que permite a los usuarios arrastrar y soltar componentes para diseñar informes de manera visual.​
+- Conectividad a Múltiples Fuentes de Datos: Permite conectar con diversas fuentes de datos, incluyendo bases de datos relacionales, servicios web, archivos XML, CSV, entre otros.​
+- Elementos de Informe Versátiles: Proporciona una amplia variedad de elementos de informe, como tablas, gráficos, crosstabs, imágenes y otros, que pueden ser incorporados en el diseño del informe.​
+- Expresiones y Fórmulas: Permite utilizar expresiones y fórmulas para realizar cálculos y manipulaciones de datos dentro de los informes.​
+- Vista Previa en Tiempo Real: Facilita la visualización en tiempo real de cómo se verá el informe final mientras se realiza el diseño.​
+- Soporte para Exportación: Permite exportar los informes a diversos formatos, como PDF, HTML, Excel, Word, CSV, entre otros.​
+- Integración con Jaspersoft Server: Facilita la publicación y distribución de informes en Jaspersoft Server, lo que permite el acceso a los informes desde aplicaciones web y móviles.​
+- Personalización de Estilos y Temas: Proporciona opciones para personalizar la apariencia del informe mediante la aplicación de estilos y temas.
+
+Referencias 
+- https://www.jaspersoft.com/
+- Demostración https://www.youtube.com/watch?v=VJEEjo4I2uA​​
+- https://www.youtube.com/watch?v=4Zy-9W3PuM8&list=PL5NudtWaQ9l4LEzDAU-DdBQAp21lLH00r   ​
+- https://www.youtube.com/@JaspersoftBISuite/search?query=tutorial ​
+- Repositorio Git – Contenedor https://github.com/TIBCOSoftware/js-docker/tree/main/jaspersoft-containers ​​
 
 ​
+#### Kibana 
+
+
 ​
 
-Kibana: herramienta de visualización de datos de código abierto que le permite crear paneles de control interactivos a partir de datos de Logstash y Elasticsearch.​
+#### Matplotlib 
 
-​
-
-Matplotlib: biblioteca de trazado de gráficos de código abierto que le permite crear gráficos y diagramas a partir de datos.
 
 
