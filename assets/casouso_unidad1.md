@@ -1,9 +1,7 @@
-## Caso de uso 1
+#### Caso de uso 1
+Optimización de la cadena de suministro en una empresa de retail mediante Big Data
 
-### Optimización de la cadena de suministro en una empresa de retail mediante Big Data
-
-### Contexto
-
+Contexto
 Una empresa de **retail omnicanal** (tiendas físicas + comercio electrónico) maneja miles de productos y opera en diferentes regiones del país. El principal problema es:
 
 * Sobreinventario en algunas tiendas
@@ -11,9 +9,7 @@ Una empresa de **retail omnicanal** (tiendas físicas + comercio electrónico) m
 * Altos costos logísticos
 * Pérdida de ventas por mala planeación de la demanda
 
----
-
-### Fuentes de datos (Big Data)
+Fuentes de datos (Big Data)
 
 La empresa integra grandes volúmenes y variedades de datos, tales como:
 
@@ -25,9 +21,7 @@ La empresa integra grandes volúmenes y variedades de datos, tales como:
 
 Estos datos cumplen claramente con las **5 V del Big Data**: volumen, velocidad, variedad, veracidad y valor.
 
----
-
-### Aplicación de Ciencia de Datos
+Aplicación de Ciencia de Datos
 
 Mediante técnicas de **analítica avanzada y machine learning**, la empresa:
 
@@ -36,9 +30,7 @@ Mediante técnicas de **analítica avanzada y machine learning**, la empresa:
 * Optimiza rutas logísticas usando analítica geoespacial
 * Simula escenarios (“qué pasaría si…”) ante cambios de precio o promociones
 
----
-
-### Beneficios empresariales
+Beneficios empresariales
 
 * Reducción del sobreinventario hasta en un 25%
 * Menor pérdida de ventas por desabasto
@@ -46,9 +38,7 @@ Mediante técnicas de **analítica avanzada y machine learning**, la empresa:
 * Mejora en la satisfacción del cliente
 * Toma de decisiones basada en datos y no en intuición
 
----
-
-### Valor para Big Data & Data Science
+Valor para Big Data & Data Science
 
 Este caso muestra cómo Big Data:
 
@@ -56,7 +46,7 @@ Este caso muestra cómo Big Data:
 * Permite decisiones predictivas y no reactivas
 * Genera ventajas competitivas sostenibles
 
----
+
 
 ## Caso de uso 2
 
