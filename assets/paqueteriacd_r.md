@@ -94,3 +94,11 @@ shinyApp(ui, server)
 ```
 
 Permite desplegar resultados analíticos en aplicaciones web interactivas.
+__________________
+
+Referencia 
+
+> Wickham, H., & Grolemund, G. (2017). R for data science: Import, tidy, transform, visualize, and model data. O’Reilly Media.
+
+> Kuhn, M., & Johnson, K. (2013). Applied predictive modeling. Springer.
+
