@@ -174,14 +174,14 @@ Formulación matemática del análisis de sentimientos
 
 Sea un **corpus de documentos** definido como:
 
-$$|\mathcal{D} = { d_1, d_2, \dots, d_N }
-|$$
+$$\mathcal{D} = { d_1, d_2, \dots, d_N }
+$$
 
 donde cada documento ( d_i ) es una secuencia de palabras (tokens):
 
-[
+$$[
 d_i = { w_{i1}, w_{i2}, \dots, w_{iM_i} }
-]
+]$$
 
 ---
 
@@ -189,9 +189,9 @@ Tokenización y normalización
 
 Definimos una función de preprocesamiento:
 
-[
+$$[
 \phi: d_i \rightarrow T_i
-]
+]$$
 
 tal que:
 
