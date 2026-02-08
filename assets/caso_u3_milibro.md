@@ -4,7 +4,7 @@ Este código cargará el texto del libro "seleccionado", analizará los sentimie
 
 ```r
 # ============================
-# 1. Cargar librerías
+# 1. Cargar bibliotecas
 # ============================
 library(tidyverse)
 library(tidytext)
