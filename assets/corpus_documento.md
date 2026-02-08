@@ -139,4 +139,9 @@ Relación explícita con las características del corpus Big Data
 | Diversidad lingüística | Clasificación por idioma          |
 | Almacenamiento         | Parquet + HDFS                    |
 
+______________
+
+Referencia
+
+> Chambers, B., & Zaharia, M. (2018). Spark: The definitive guide: Big data processing made simple. O’Reilly Media.
 ​
