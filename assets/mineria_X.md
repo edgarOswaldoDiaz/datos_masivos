@@ -38,7 +38,7 @@ Antes de tocar la API, esto es **clave** (y muchas veces lo primero que revisa X
   * Institucional
   * Comercial
 
-**Tip legal/data**: define desde aquí si manejarás datos personales, porque eso impacta privacidad, consentimiento y almacenamiento (algo muy alineado con tu perfil 😉).
+**Tip legal/data**: define desde aquí si manejarás datos personales, porque eso impacta privacidad, consentimiento y almacenamiento (algo muy alineado con tu perfil.
 
 Crear una cuenta de desarrollador en X
 
@@ -122,7 +122,7 @@ Cada endpoint define:
 
 Diseñar el flujo del proceso (arquitectura)
 
-Aquí es donde ya suena a **ciencia de datos / ingeniería** 😎
+Aquí es donde ya suena a **ciencia de datos / ingeniería**
 
 Flujo típico:
 
@@ -178,7 +178,7 @@ Importante desde el punto de vista legal y ético:
 
 Cumplimiento legal y políticas de X
 
-No es opcional ❗
+No es opcional
 
 Debes cumplir:
 
