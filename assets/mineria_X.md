@@ -211,6 +211,8 @@ Esto te salva cuando:
 
 Fuente: https://developer.x.com/en/docs/x-api
 
+Importante:​ A partir del 9 de febrero de 2024, la API de Twitter ya no es gratuita. Se requiere un plan de pago para acceder a ella.​
 
+Información sobre los planes de precios y las opciones de pago en https://developer.twitter.com/en/products/twitter-api.
 
 
