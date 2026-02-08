@@ -21,7 +21,7 @@
 - 3.1 [Análisis de sentimientos en “R”](assets/analisis_r.md)
 - 3.1.1 [Un paseo por el software “R”](assets/paseox_r.md)
 - 3.1.2 [Paquetería para Ciencia de Datos](assets/paqueteriacd_r.md)
-- 3.1.3 Caso práctico: El estado de ánimo de mi libro o la noticia del día
+- 3.1.3 [Caso práctico: El estado de ánimo de mi libro o la noticia del día](assets/caso_u3_milibro.md)
 - 3.1.4 Codificación en “R” v. Corpus del documento
 - 3.1.5 Palabras de opinión negativa
 - 3.2 Minería de datos en Twitter para sentiment análisis.
