@@ -209,6 +209,8 @@ Esto te salva cuando:
 * Hay auditorías
 * Escala el proyecto
 
+Fuente: https://developer.x.com/en/docs/x-api
+
 
 
 
