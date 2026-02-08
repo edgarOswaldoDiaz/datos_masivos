@@ -23,7 +23,7 @@
 - 3.1.2 [Paquetería para Ciencia de Datos](assets/paqueteriacd_r.md)
 - 3.1.3 [Caso práctico: El estado de ánimo de mi libro o la noticia del día](assets/caso_u3_milibro.md)
 - 3.1.4 [Codificación en “R” v. Corpus del documento](assets/corpus_documento.md)
-- 3.1.5 Palabras de opinión negativa
+- 3.1.5 [Palabras de opinión negativa](assets/palabras_negativas_r.md)
 - 3.2 Minería de datos en Twitter para sentiment análisis.
 - 3.2.1 Creación de cuenta para desarrollador, Application Programming Interface (API)
 - 3.2.2 Paquetería para (X) antes Twitter Mining
