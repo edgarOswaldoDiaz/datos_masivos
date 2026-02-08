@@ -1,4 +1,5 @@
-Caso de uso 
+#### Caso de uso el estado de ánimo de mi libro o la noticia del día
+
 Este código cargará el texto del libro "seleccionado", analizará los sentimientos de cada palabra utilizando el lexicon de sentimientos bing, contará el número de palabras positivas y negativas, y determinará si el estado de ánimo general del texto es positivo, negativo o neutral.​
 
 ```r
