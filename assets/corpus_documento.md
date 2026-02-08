@@ -1,19 +1,15 @@
 #### Características de un corpus big data:
 ​
-​
-
-
-Perfecto, vamos a plantearlo **como un ejemplo técnico y realista**, a nivel **maestría en Ciencia de Datos**, usando **R orientado a Big Data**, dejando claro **cómo cada característica del corpus se aborda con herramientas específicas**.
-
-La idea es **no simular toy data**, sino mostrar **arquitectura, flujo y código escalable**.
-
----
-
-## Ejemplo en R: Procesamiento de un corpus Big Data multifuente y multilingüe
+​- Volumen masivo: Un corpus big data típicamente contiene una cantidad enorme de datos de texto. Esto puede ser desde millones hasta miles de millones de documentos o más​
+- Variedad de fuentes: Los datos en un corpus big data pueden provenir de diversas fuentes, como redes sociales, sitios web, documentos gubernamentales, foros en línea, noticias, entre otros. Esta variedad de fuentes puede enriquecer el corpus con una amplia gama de lenguaje y estilos de escritura.​
+- Velocidad de adquisición: La recopilación de datos en un corpus big data puede ser continua y en tiempo real, lo que implica una alta velocidad de adquisición de datos para mantenerse al día con la información que se genera constantemente en línea.​
+- Complejidad de procesamiento: Dado el tamaño masivo del corpus, el procesamiento de datos y el análisis lingüístico pueden requerir técnicas y herramientas específicas de big data para manejar eficientemente la carga de trabajo.​
+- Diversidad lingüística: Debido a la variedad de fuentes de datos, un corpus big data puede contener textos en varios idiomas y dialectos, lo que lo hace útil para análisis multilingües y estudios comparativos.​
+- Desafíos de almacenamiento y procesamiento: El almacenamiento y procesamiento de un corpus big data pueden ser desafiantes debido a la necesidad de infraestructura de almacenamiento y computación escalable.​
 
 Este ejemplo asume un entorno **Big Data** usando **Apache Spark** desde R mediante `sparklyr`, lo cual es estándar cuando el volumen de texto excede la memoria local.
 
-### 📦 Librerías utilizadas
+Bibliotecas utilizadas 
 
 ```r
 library(sparklyr)
@@ -22,9 +18,7 @@ library(tidytext)
 library(stringr)
 ```
 
----
-
-## 1️⃣ Conexión a infraestructura Big Data (volumen y escalabilidad)
+Conexión a infraestructura Big Data (volumen y escalabilidad)
 
 ```r
 sc <- spark_connect(
@@ -33,12 +27,10 @@ sc <- spark_connect(
 )
 ```
 
-🔹 **Volumen masivo**
+**Volumen masivo**
 Spark permite manejar millones o miles de millones de documentos distribuidos en clúster.
 
----
-
-## 2️⃣ Ingesta de datos desde múltiples fuentes (variedad)
+Ingesta de datos desde múltiples fuentes (variedad)
 
 Supongamos que el corpus está almacenado en **HDFS o S3**, organizado por fuente:
 
@@ -60,12 +52,11 @@ Ejemplo de estructura:
  └── documentos_gob/
 ```
 
-🔹 **Variedad de fuentes**
+**Variedad de fuentes**
 Se integran textos de redes sociales, noticias y documentos institucionales.
 
----
 
-## 3️⃣ Procesamiento distribuido del texto (complejidad)
+Procesamiento distribuido del texto (complejidad)
 
 Tokenización distribuida a nivel palabra:
 
@@ -76,12 +67,10 @@ tokens <- corpus %>%
   unnest_tokens(word, text)
 ```
 
-🔹 **Complejidad de procesamiento**
+**Complejidad de procesamiento**
 La tokenización se ejecuta en paralelo sobre particiones distribuidas.
 
----
-
-## 4️⃣ Detección de idioma (diversidad lingüística)
+Detección de idioma (diversidad lingüística)
 
 Ejemplo simplificado usando expresiones regulares:
 
@@ -96,12 +85,10 @@ tokens <- tokens %>%
   )
 ```
 
-🔹 **Diversidad lingüística**
+**Diversidad lingüística**
 El corpus puede contener múltiples idiomas y dialectos.
 
----
-
-## 5️⃣ Análisis de sentimientos a gran escala
+Análisis de sentimientos a gran escala
 
 ```r
 bing <- get_sentiments("bing")
@@ -111,12 +98,10 @@ sentimientos <- tokens %>%
   count(idioma, sentiment)
 ```
 
-🔹 **Procesamiento masivo distribuido**
+**Procesamiento masivo distribuido**
 El análisis se realiza sin mover los datos a memoria local.
 
----
-
-## 6️⃣ Simulación de alta velocidad de adquisición (streaming)
+Simulación de alta velocidad de adquisición (streaming)
 
 ```r
 stream <- stream_read_text(
@@ -127,12 +112,10 @@ stream <- stream_read_text(
 )
 ```
 
-🔹 **Velocidad de adquisición**
+**Velocidad de adquisición**
 Permite análisis casi en tiempo real (Spark Structured Streaming).
 
----
-
-## 7️⃣ Persistencia optimizada (desafíos de almacenamiento)
+Persistencia optimizada (desafíos de almacenamiento)
 
 ```r
 spark_write_parquet(
@@ -142,12 +125,11 @@ spark_write_parquet(
 )
 ```
 
-🔹 **Almacenamiento eficiente**
+**Almacenamiento eficiente**
 Formato columnar optimizado para Big Data.
 
----
 
-## 📌 Relación explícita con las características del corpus Big Data
+Relación explícita con las características del corpus Big Data
 
 | Característica         | Implementación                    |
 | ---------------------- | --------------------------------- |
@@ -158,13 +140,4 @@ Formato columnar optimizado para Big Data.
 | Diversidad lingüística | Clasificación por idioma          |
 | Almacenamiento         | Parquet + HDFS                    |
 
----
-
-Si quieres, en el siguiente paso puedo:
-
-* 🔹 adaptarlo a **INEGI / datos gubernamentales**
-* 🔹 incluir **arquitectura conceptual del pipeline**
-* 🔹 o bajarlo a un **ejercicio didáctico evaluable**
-
-Tú decides 🚀📚
 ​
