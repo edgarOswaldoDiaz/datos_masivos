@@ -40,5 +40,18 @@ El Científico de Datos utiliza los datos almacenados en el **Data Lake** y estr
 
 El CISO supervisa la seguridad integral del ecosistema de Big Data, asegurando que las plataformas de **Data Lake, Data Warehouse, analítica avanzada e inteligencia artificial** operen bajo principios de protección de la información y gestión de riesgos. Define políticas de seguridad, controles de acceso, estrategias de protección de datos y mecanismos de monitoreo para prevenir incidentes de ciberseguridad. En colaboración con los equipos de DevSecOps y DataSecOps, establece controles técnicos y normativos que protegen los pipelines de datos, los modelos de inteligencia artificial y los sistemas analíticos. Su rol garantiza que el ecosistema de datos funcione de manera confiable, segura y conforme a regulaciones de privacidad y protección de datos.
 
+________________
+
+Referencias 
+
+> Foster Provost, F., & Tom Fawcett, T. (2013). Data Science for Business: What you need to know about data mining and data-analytic thinking. O’Reilly Media.
+
+> Bill Inmon, W. H. (2016). Building the Data Lake. Technics Publications.
+
+> Foster Provost, F., & Tom Fawcett, T. (2013). Data Science for Business. O’Reilly Media.
+
+> Alok Shrivastava, A., & Neeraj Kumar, N. (2021). MLOps Engineering at Scale: From model to production. O’Reilly Media.
+
+> National Institute of Standards and Technology. (2020). NIST Big Data Interoperability Framework (NBDIF): Volume 1–9. U.S. Department of Commerce.
 
 
