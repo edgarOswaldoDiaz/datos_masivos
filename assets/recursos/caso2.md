@@ -37,19 +37,30 @@ En un nivel más avanzado, el equipo de Data Science desarrolla modelos basados 
 
 A continuación, se presenta la arquitectura propuesta:
 
-```mermaid
-flowchart TD
-A[Gestión de procesos de negocio (BPM)<br/>Roles jurídicos<br/>Automatización<br/>Flujos de trabajo]
-B[Fuentes de datos<br/>Expedientes<br/>Jurisprudencia<br/>Legislaciones<br/>Contratos<br/>Documentos legales<br/>Sistemas internos]
-C[Integración y preparación<br/>ELT / ETL<br/>Data Engineering<br/>Data Quality<br/>Catalogación]
-D[Data Lakehouse<br/>Data Lake - documentos legales<br/>Data Warehouse - datos estructurados<br/>Metadatos]
-E[Business Intelligence<br/>Reportes<br/>Visualización]
-F[Business Analytics<br/>Descriptivo<br/>Predictivo<br/>Prescriptivo]
-G[Data Science<br/>Machine Learning<br/>NLP jurídico<br/>Clasificación de documentos]
-H[Agentes inteligentes legales<br/>LLMs especializados<br/>RAG sobre documentos<br/>Automatización de análisis<br/>Asistencia a abogados]
-I[Soporte a la toma de decisiones<br/>Estrategias legales optimizadas<br/>Predicción de resultados<br/>Automatización de procesos]
-J[Gobernanza, Seguridad y Ética (CISO)<br/>Privacidad<br/>Confidencialidad<br/>Control de accesos (IAM)<br/>Auditoría<br/>Cumplimiento normativo<br/>Gestión de riesgos<br/>Seguridad en IA]
+flowchart LR
 
+A[Gestión de procesos de negocio (BPM)\nRoles jurídicos\nAutomatización\nFlujos de trabajo]
+
+B[Fuentes de datos\nExpedientes\nJurisprudencia\nLegislaciones\nContratos\nDocumentos legales\nSistemas internos]
+
+C[Integración y preparación\nELT / ETL\nData Engineering\nData Quality\nCatalogación]
+
+D[Data Lakehouse\nData Lake - documentos legales\nData Warehouse - datos estructurados\nMetadatos]
+
+E[Business Intelligence\nReportes\nVisualización]
+
+F[Business Analytics\nDescriptivo\nPredictivo\nPrescriptivo]
+
+G[Data Science\nMachine Learning\nNLP jurídico\nClasificación de documentos]
+
+H[Agentes inteligentes legales\nLLMs especializados\nRAG sobre documentos\nAutomatización de análisis\nAsistencia a abogados]
+
+I[Soporte a la toma de decisiones\nEstrategias legales optimizadas\nPredicción de resultados\nAutomatización de procesos]
+
+%% CISO separado visualmente
+J[Gobernanza, Seguridad y Ética (CISO)\nCapa transversal\nPrivacidad\nConfidencialidad\nControl de accesos (IAM)\nAuditoría\nCumplimiento normativo\nGestión de riesgos\nSeguridad en IA]
+
+%% Flujo principal
 A --> B
 B --> C
 C --> D
@@ -61,7 +72,7 @@ D --> G
 G --> H
 H --> I
 
-J -.-> A
+%% Capa transversal (líneas punteadas)
 J -.-> B
 J -.-> C
 J -.-> D
@@ -70,8 +81,7 @@ J -.-> F
 J -.-> G
 J -.-> H
 J -.-> I
-J -.-> I
-```
+
 
 ## Seguridad de la Información y Rol del CISO 
 
