@@ -8,7 +8,14 @@ La propuesta de sistema para el despacho es implementar una estrategia integral 
 - Gestión de audiencias
 - Control documental legal
 
-## Fuentes de datos  
+## Fuentes de datos 
+Para el desarrollo de la herramienta, se deben de proporcionar fuentes de datos como lo son:
+- Sistemas internos de gestión
+- Jurisprudencias y legislaciones
+- Documentos legales como contratos, demandas y sentencias
+- Normativas y boletines oficiales
+- APIs de sistemas judiciales
+Dado a que estos contienen información delicada, es necesario llevar un control y resguardo con respecto a todos los documentos, así como una firma de responsabilidad de todos los involucrados en el desarrollo así como monitoreo del uso de estos.
 
 ```mermaid
 flowchart TD
