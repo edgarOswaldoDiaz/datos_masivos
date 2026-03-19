@@ -40,25 +40,25 @@ A continuación, se presenta la arquitectura propuesta:
 ```mermaid
 flowchart LR
 
-A[Gestión de procesos de negocio (BPM)\nRoles jurídicos\nAutomatización\nFlujos de trabajo]
+A[Gestion de procesos de negocio BPM\nRoles juridicos\nAutomatizacion\nFlujos de trabajo]
 
 B[Fuentes de datos\nExpedientes\nJurisprudencia\nLegislaciones\nContratos\nDocumentos legales\nSistemas internos]
 
-C[Integración y preparación\nELT / ETL\nData Engineering\nData Quality\nCatalogación]
+C[Integracion y preparacion\nELT / ETL\nData Engineering\nData Quality\nCatalogacion]
 
 D[Data Lakehouse\nData Lake - documentos legales\nData Warehouse - datos estructurados\nMetadatos]
 
-E[Business Intelligence\nReportes\nVisualización]
+E[Business Intelligence\nReportes\nVisualizacion]
 
 F[Business Analytics\nDescriptivo\nPredictivo\nPrescriptivo]
 
-G[Data Science\nMachine Learning\nNLP jurídico\nClasificación de documentos]
+G[Data Science\nMachine Learning\nNLP juridico\nClasificacion de documentos]
 
-H[Agentes inteligentes legales\nLLMs especializados\nRAG sobre documentos\nAutomatización de análisis\nAsistencia a abogados]
+H[Agentes inteligentes legales\nLLMs especializados\nRAG sobre documentos\nAutomatizacion de analisis\nAsistencia a abogados]
 
-I[Soporte a la toma de decisiones\nEstrategias legales optimizadas\nPredicción de resultados\nAutomatización de procesos]
+I[Soporte a la toma de decisiones\nEstrategias legales optimizadas\nPrediccion de resultados\nAutomatizacion de procesos]
 
-J[Gobernanza, Seguridad y Ética (CISO)\nCapa transversal\nPrivacidad\nConfidencialidad\nControl de accesos (IAM)\nAuditoría\nCumplimiento normativo\nGestión de riesgos\nSeguridad en IA]
+J[Gobernanza Seguridad y Etica CISO\nCapa transversal\nPrivacidad\nConfidencialidad\nControl de accesos IAM\nAuditoria\nCumplimiento normativo\nGestion de riesgos\nSeguridad en IA]
 
 A --> B
 B --> C
