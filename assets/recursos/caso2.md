@@ -37,6 +37,7 @@ En un nivel más avanzado, el equipo de Data Science desarrolla modelos basados 
 
 A continuación, se presenta la arquitectura propuesta:
 
+```mermaid
 flowchart LR
 
 A[Gestión de procesos de negocio (BPM)\nRoles jurídicos\nAutomatización\nFlujos de trabajo]
@@ -57,10 +58,8 @@ H[Agentes inteligentes legales\nLLMs especializados\nRAG sobre documentos\nAutom
 
 I[Soporte a la toma de decisiones\nEstrategias legales optimizadas\nPredicción de resultados\nAutomatización de procesos]
 
-%% CISO separado visualmente
 J[Gobernanza, Seguridad y Ética (CISO)\nCapa transversal\nPrivacidad\nConfidencialidad\nControl de accesos (IAM)\nAuditoría\nCumplimiento normativo\nGestión de riesgos\nSeguridad en IA]
 
-%% Flujo principal
 A --> B
 B --> C
 C --> D
@@ -72,7 +71,6 @@ D --> G
 G --> H
 H --> I
 
-%% Capa transversal (líneas punteadas)
 J -.-> B
 J -.-> C
 J -.-> D
@@ -81,7 +79,7 @@ J -.-> F
 J -.-> G
 J -.-> H
 J -.-> I
-
+```
 
 ## Seguridad de la Información y Rol del CISO 
 
