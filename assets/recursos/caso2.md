@@ -73,7 +73,7 @@ J -.-> I
 J -.-> I
 ```
 
-## seguridad de la Información y Rol del CISO 
+## Seguridad de la Información y Rol del CISO 
 
 Finalmente, para garantizar la protección de la información y la confiabilidad de los sistemas implementados, se incorpora el rol del Chief Information Security Officer (CISO), quien lidera la estrategia de seguridad dentro de la organización.
 
@@ -120,7 +120,7 @@ Se asegura:
 - Transparencia en modelos
 - Continuidad del negocio
 
-Implementa:
+### Implementa:
 
 - Planes de recuperación (DRP)
 - Respaldo de información
