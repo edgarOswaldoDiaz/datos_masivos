@@ -102,60 +102,46 @@ Se asegura:
 
 ### Incluye:
 
-Protección de pipelines de datos
+- Protección de pipelines de datos
+- Seguridad en modelos de IA
+- Prevención de fugas en LLMs
+- Control de agentes inteligentes
+- Gestión de riesgos
 
-Seguridad en modelos de IA
+### Se encarga de:
 
-Prevención de fugas en LLMs
-
-Control de agentes inteligentes
-
-Gestión de riesgos
-
-Se encarga de:
-
-Evaluación de vulnerabilidades
-
-Planes de respuesta a incidentes
-
-Mitigación de riesgos
-
-Gobernanza y ética
-
-Supervisa:
-
-Uso responsable de datos
-
-Mitigación de sesgos
-
-Transparencia en modelos
-
-Continuidad del negocio
+- Evaluación de vulnerabilidades
+- Planes de respuesta a incidentes
+- Mitigación de riesgos
+- Gobernanza y ética
+- Supervisa:
+- Uso responsable de datos
+- Mitigación de sesgos
+- Transparencia en modelos
+- Continuidad del negocio
 
 Implementa:
 
-Planes de recuperación (DRP)
-
-Respaldo de información
-
-Infraestructura resiliente
+- Planes de recuperación (DRP)
+- Respaldo de información
+- Infraestructura resiliente
 
 En conjunto, estas acciones consolidan la seguridad de la información como un componente estratégico dentro de la transformación digital de la organización.
 
-Referencias
+## Referencias
 
-Provost, F., & Fawcett, T. (2013). Data Science for Business. O’Reilly.
+> Provost, F., & Fawcett, T. (2013). Data Science for Business. O’Reilly.
 
-Inmon, W. (2016). Building the Data Warehouse. Wiley.
+> Inmon, W. (2016). Building the Data Warehouse. Wiley.
 
-Huyen, C. (2022). Designing Machine Learning Systems. O’Reilly.
+> Huyen, C. (2022). Designing Machine Learning Systems. O’Reilly.
 
-Burkov, A. (2019). The Hundred-Page Machine Learning Book.
+> Burkov, A. (2019). The Hundred-Page Machine Learning Book.
 
-Russell, S., & Norvig, P. (2021). Artificial Intelligence: A Modern Approach. Pearson.
+> Russell, S., & Norvig, P. (2021). Artificial Intelligence: A Modern Approach. Pearson.
 
-Goodfellow, I., Bengio, Y., & Courville, A. (2016). Deep Learning. MIT Press.
+> Goodfellow, I., Bengio, Y., & Courville, A. (2016). Deep Learning. MIT Press.
 
-Ashley, K. D. (2017). Artificial Intelligence and Legal Analytics. Cambridge University Press.
+> Ashley, K. D. (2017). Artificial Intelligence and Legal Analytics. Cambridge University Press.
 
-Susskind, R. (2019). Online Courts and the Future of Justice. Oxford University Press.
+> Susskind, R. (2019). Online Courts and the Future of Justice. Oxford University Press.
