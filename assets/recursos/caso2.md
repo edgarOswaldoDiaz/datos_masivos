@@ -37,8 +37,7 @@ En un nivel más avanzado, el equipo de Data Science desarrolla modelos basados 
 
 A continuación, se presenta la arquitectura propuesta:
 
-```
-mermaid
+```mermaid
 flowchart TD
 A[Gestión de procesos de negocio (BPM)<br/>Roles jurídicos<br/>Automatización<br/>Flujos de trabajo]
 B[Fuentes de datos<br/>Expedientes<br/>Jurisprudencia<br/>Legislaciones<br/>Contratos<br/>Documentos legales<br/>Sistemas internos]
