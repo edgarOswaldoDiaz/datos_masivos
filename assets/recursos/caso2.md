@@ -300,16 +300,26 @@ El Científico de Datos interactúa directamente con:
 - **Gobernanza y CISO** → Cumplimiento y seguridad
 
 ---
-A partir de las funciones descritas, el rol del Científico de Datos en Frodalex
-Systems puede profundizarse mediante la formalización matemática de los problemas
+A partir de las funciones descritas, el rol del Científico de Datos puede profundizarse mediante la formalización matemática de los problemas
 legales, lo que permite no solo analizar información, sino optimizar la toma de
 decisiones bajo incertidumbre. Este enfoque transforma la práctica jurídica
 tradicional en un proceso basado en modelos cuantificables y evidencia estadística.
 
----
 ### Modelado de probabilidad de éxito en litigios
-Uno de los principales problemas del despacho consiste en estimar la probabilidad de éxito de un caso legar
+Uno de los principales problemas del despacho consiste en estimar la probabilidad de éxito de un caso legal. Este problema puede abordarse mediante modelos de clasificación, como la regresión logística:
 
+$$
+P(Y=1 \mid X) = \frac{1}{1 + e^{-\beta_0 - \beta_1 x_1 - \beta_2 x_2 - \cdots - \beta_n x_n}}
+$$
+
+Donde:
+
+- $Y$: resultado del caso (ganado o perdido)  
+- $X$: conjunto de variables explicativas  
+- $x_1, x_2, ..., x_n$: características como tipo de caso, evidencia, juez, duración, etc.  
+- $\beta$: coeficientes del modelo
+
+---
 
 ## Consideraciones de Seguridad y Ética
 
