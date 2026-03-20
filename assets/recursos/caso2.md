@@ -319,6 +319,56 @@ Donde:
 - $x_1, x_2, ..., x_n$: características como tipo de caso, evidencia, juez, duración, etc.  
 - $\beta$: coeficientes del modelo
 
+Este modelo permite:
+
+- Priorizar litigios estratégicos  
+- Evaluar riesgos legales  
+- Seleccionar estrategias jurídicas más efectivas  
+
+### Optimización en la asignación de recursos legales
+
+Otro problema clave es la asignación eficiente de abogados a los casos disponibles. Este puede formularse como un problema de optimización:
+
+$$
+\max \sum_{i=1}^{n} \sum_{j=1}^{m} p_{ij} x_{ij}
+$$
+
+Donde:
+
+- $x_{ij} \in \{0,1\}$: indica si el abogado $j$ es asignado al caso $i$  
+- $p_{ij}$: probabilidad de éxito si el abogado $j$ toma el caso $i$  
+
+Este enfoque permite:
+
+- Maximizar la probabilidad global de éxito del despacho  
+- Distribuir la carga de trabajo de manera equilibrada  
+- Asignar casos según experiencia y especialización  
+
+### Análisis de texto jurídico mediante NLP
+
+Dado que gran parte de la información legal se encuentra en formato textual, el Científico de Datos emplea técnicas de Procesamiento de Lenguaje Natural (NLP) para transformar documentos en datos estructurados.
+
+Aplicaciones principales:
+
+- Clasificación automática de documentos legales  
+- Extracción de cláusulas relevantes  
+- Identificación de riesgos en contratos  
+- Medición de similitud entre casos  
+
+### Simulación de escenarios y análisis de incertidumbre
+
+Para complementar el análisis predictivo, se pueden implementar técnicas de simulación, como métodos tipo Monte Carlo, que permiten:
+
+- Generar múltiples escenarios posibles de resolución de casos  
+- Estimar la variabilidad en tiempos, costos y resultados  
+- Evaluar riesgos bajo distintos supuestos  
+
+### Aporte estratégico del enfoque cuantitativo
+
+La incorporación de estos métodos permite que el buffet evolucione de un modelo basado principalmente en la experiencia profesional a uno sustentado en análisis cuantitativo y optimización.
+
+Desde el rol del Científico de Datos, esto implica no solo desarrollar modelos, sino traducir problemas legales complejos en estructuras matemáticas que permitan mejorar la precisión, eficiencia y transparencia en la toma de decisiones.
+
 ---
 
 ## Consideraciones de Seguridad y Ética
