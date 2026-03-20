@@ -136,6 +136,162 @@ Se asegura:
 
 En conjunto, estas acciones consolidan la seguridad de la información como un componente estratégico dentro de la transformación digital de la organización.
 
+---
+
+## Fuentes de Datos
+
+En un despacho legal, las principales fuentes de datos incluyen:
+
+- Expedientes de casos (historial, duración, resultados)
+- Jurisprudencias y precedentes legales
+- Documentos legales (contratos, demandas, sentencias)
+- Información de clientes
+- Tiempos de resolución por tipo de caso
+- Costos y honorarios
+- Datos externos (cambios legislativos, tendencias judiciales)
+
+### Arquitectura de Datos
+
+- **Data Lake**: Almacena datos en bruto (PDFs, audios, textos legales)
+- **Data Warehouse**: Contiene datos estructurados y organizados para análisis
+
+---
+
+## Proceso de Trabajo
+
+### 1. Exploración de Datos (EDA)
+
+Se analizan los datos para identificar patrones y relaciones:
+
+- Tipos de casos con mayor tasa de éxito
+- Duración promedio de litigios
+- Variables que influyen en los resultados
+
+**Ejemplo:**
+Detectar que los casos laborales tienen mayor probabilidad de éxito cuando existe evidencia documental sólida.
+
+---
+
+### 2. Limpieza y Preparación de Datos
+
+Incluye:
+
+- Eliminación de datos duplicados o inconsistentes
+- Estandarización de formatos
+- Transformación de documentos legales en datos analizables (NLP)
+
+**Ejemplo:**
+Convertir sentencias en variables como:
+- Tipo de fallo
+- Duración del juicio
+- Juez asignado
+
+---
+
+### 3. Desarrollo de Modelos
+
+Se aplican técnicas de Machine Learning para:
+
+- Predecir resultados de casos
+- Estimar duración de litigios
+- Calcular costos esperados
+- Recomendar estrategias legales
+
+**Ejemplo:**
+Un modelo predice un 75% de probabilidad de éxito en un caso civil bajo ciertas condiciones.
+
+---
+
+### 4. Implementación de Inteligencia Artificial
+
+Se integran soluciones como:
+
+- Procesamiento de Lenguaje Natural (NLP)
+- Sistemas de recomendación
+- Automatización de revisión de contratos
+
+**Ejemplo:**
+Sistema que analiza contratos y detecta cláusulas de riesgo automáticamente.
+
+---
+
+### 5. Visualización y Comunicación
+
+Se presentan los resultados mediante:
+
+- Dashboards interactivos
+- Reportes ejecutivos
+- Indicadores clave (KPIs)
+
+**Ejemplo de KPIs:**
+
+- Tasa de éxito por área legal
+- Casos en riesgo
+- Rendimiento por abogado
+
+---
+
+## Colaboración
+
+El Científico de Datos trabaja con:
+
+- **Ingenieros de Datos**: Infraestructura y procesamiento
+- **Equipo Legal**: Validación de resultados
+- **MLOps**: Despliegue de modelos
+- **Seguridad y Gobernanza**: Protección y cumplimiento
+
+---
+
+## Ética y Cumplimiento
+
+Aspectos críticos en el entorno legal:
+
+- Protección de datos sensibles
+- Cumplimiento normativo
+- Transparencia en modelos
+- Mitigación de sesgos
+
+---
+
+## Caso de Uso
+
+### Escenario
+
+Un cliente presenta un caso laboral.
+
+### Proceso
+
+1. El sistema analiza casos similares
+2. Calcula probabilidad de éxito
+3. Estima duración y costo
+4. Sugiere estrategia (litigar o negociar)
+
+### Resultado
+
+El abogado toma decisiones basadas en datos, aumentando la probabilidad de éxito y optimizando recursos.
+
+---
+
+## Beneficios
+
+- Toma de decisiones basada en evidencia
+- Reducción de tiempos y costos
+- Mayor tasa de éxito en litigios
+- Mejora en la atención al cliente
+- Ventaja competitiva
+
+---
+
+## Tecnologías Sugeridas
+
+- Python (Pandas, Scikit-learn, NLP)
+- SQL
+- Power BI / Tableau
+- Apache Spark
+- Herramientas de MLOps (Docker, MLflow)
+
+---
+
 ## Referencias
 
 > Provost, F., & Fawcett, T. (2013). Data Science for Business. O’Reilly.
