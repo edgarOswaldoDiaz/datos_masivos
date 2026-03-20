@@ -136,161 +136,209 @@ Se asegura:
 
 En conjunto, estas acciones consolidan la seguridad de la información como un componente estratégico dentro de la transformación digital de la organización.
 
----
+## Rol del Científico de Datos en Frodalex Systems
 
-## Fuentes de Datos
+Dentro de la arquitectura propuesta, el Científico de Datos desempeña un papel estratégico en la capa de **Data Science**, conectando los datos del Data Lakehouse con soluciones inteligentes que impactan directamente en la toma de decisiones legales.
 
-En un despacho legal, las principales fuentes de datos incluyen:
-
-- Expedientes de casos (historial, duración, resultados)
-- Jurisprudencias y precedentes legales
-- Documentos legales (contratos, demandas, sentencias)
-- Información de clientes
-- Tiempos de resolución por tipo de caso
-- Costos y honorarios
-- Datos externos (cambios legislativos, tendencias judiciales)
-
-### Arquitectura de Datos
-
-- **Data Lake**: Almacena datos en bruto (PDFs, audios, textos legales)
-- **Data Warehouse**: Contiene datos estructurados y organizados para análisis
+Su función no se limita al desarrollo de modelos, sino que abarca todo el ciclo de vida analítico, desde la comprensión del problema jurídico hasta la implementación de soluciones basadas en inteligencia artificial.
 
 ---
 
-## Proceso de Trabajo
+## Objetivos del Científico de Datos
 
-### 1. Exploración de Datos (EDA)
+- Transformar datos legales en conocimiento accionable
+- Mejorar la probabilidad de éxito en litigios
+- Optimizar la asignación de recursos legales
+- Automatizar el análisis documental
+- Reducir tiempos operativos en procesos jurídicos
 
-Se analizan los datos para identificar patrones y relaciones:
+---
 
-- Tipos de casos con mayor tasa de éxito
-- Duración promedio de litigios
-- Variables que influyen en los resultados
+## Proceso de Trabajo del Científico de Datos
+
+### 1. Entendimiento del Problema Legal
+
+El Científico de Datos colabora directamente con abogados y áreas de negocio para traducir problemas jurídicos en problemas analíticos.
+
+**Ejemplos:**
+- ¿Qué variables influyen en ganar un caso?
+- ¿Cuánto tiempo tomará resolver un litigio?
+- ¿Qué estrategia legal tiene mayor probabilidad de éxito?
+
+---
+
+### 2. Exploración y Análisis de Datos (EDA)
+
+Trabaja sobre datos provenientes del Data Lakehouse:
+
+- Expedientes históricos
+- Jurisprudencia
+- Documentos legales
+- Datos operativos del despacho
+
+**Actividades:**
+- Identificación de patrones en resoluciones judiciales
+- Análisis de correlaciones entre variables legales
+- Detección de anomalías en procesos
+
+---
+
+### 3. Preparación y Feature Engineering
+
+Transforma datos complejos en variables útiles para modelos:
+
+- Extracción de información de textos legales (NLP)
+- Generación de variables como:
+  - Tipo de caso
+  - Complejidad legal
+  - Tiempo promedio de resolución
+  - Historial del juez o tribunal
 
 **Ejemplo:**
-Detectar que los casos laborales tienen mayor probabilidad de éxito cuando existe evidencia documental sólida.
+Convertir contratos en variables como:
+- Riesgo legal
+- Tipo de cláusula
+- Penalizaciones asociadas
 
 ---
 
-### 2. Limpieza y Preparación de Datos
+### 4. Desarrollo de Modelos Predictivos
 
-Incluye:
+Se implementan modelos de Machine Learning para:
 
-- Eliminación de datos duplicados o inconsistentes
-- Estandarización de formatos
-- Transformación de documentos legales en datos analizables (NLP)
+#### Predicción de litigios
+- Probabilidad de ganar o perder un caso
+
+#### Estimación de tiempos
+- Duración esperada de procesos judiciales
+
+#### Optimización de recursos
+- Asignación eficiente de abogados según carga y experiencia
+
+#### Análisis de riesgo
+- Identificación de casos con alta incertidumbre
+
+---
+
+### 5. Modelos de NLP Jurídico
+
+Dado el alto volumen de texto legal, se desarrollan soluciones de Procesamiento de Lenguaje Natural:
+
+- Clasificación automática de documentos legales
+- Extracción de cláusulas relevantes
+- Análisis de jurisprudencia
+- Resumen automático de documentos
 
 **Ejemplo:**
-Convertir sentencias en variables como:
-- Tipo de fallo
-- Duración del juicio
-- Juez asignado
+Un modelo que detecta cláusulas de riesgo en contratos en segundos.
 
 ---
 
-### 3. Desarrollo de Modelos
+### 6. Integración con Agentes Inteligentes (LLMs + RAG)
 
-Se aplican técnicas de Machine Learning para:
+El Científico de Datos colabora en la implementación de:
 
-- Predecir resultados de casos
-- Estimar duración de litigios
-- Calcular costos esperados
-- Recomendar estrategias legales
+- Modelos de lenguaje especializados en derecho
+- Sistemas RAG (Retrieval-Augmented Generation) sobre documentos legales
+- Asistentes inteligentes para abogados
+
+**Capacidades:**
+- Responder consultas legales basadas en documentos internos
+- Generar estrategias jurídicas sugeridas
+- Automatizar análisis de casos
+
+---
+
+### 7. Evaluación y Validación de Modelos
+
+Se asegura que los modelos sean:
+
+- Precisos (accuracy, recall, F1-score)
+- Interpretables (explicabilidad en decisiones legales)
+- Libres de sesgos
+
+**Importante en contexto legal:**
+La explicabilidad es crítica para justificar decisiones ante clientes o tribunales.
+
+---
+
+### 8. Despliegue y MLOps
+
+Trabaja junto con el equipo de MLOps para:
+
+- Implementar modelos en producción
+- Automatizar pipelines de entrenamiento
+- Monitorear desempeño en tiempo real
+- Actualizar modelos con nuevos datos
+
+---
+
+### 9. Visualización y Comunicación
+
+Los resultados se integran en sistemas de BI:
+
+- Dashboards de probabilidad de éxito
+- Indicadores de rendimiento legal
+- Alertas de riesgo en casos
 
 **Ejemplo:**
-Un modelo predice un 75% de probabilidad de éxito en un caso civil bajo ciertas condiciones.
+Un panel que muestra:
+- Casos críticos
+- Probabilidad de fallo adverso
+- Recomendaciones estratégicas
 
 ---
 
-### 4. Implementación de Inteligencia Artificial
+## Integración con la Arquitectura
 
-Se integran soluciones como:
+El Científico de Datos interactúa directamente con:
 
-- Procesamiento de Lenguaje Natural (NLP)
-- Sistemas de recomendación
-- Automatización de revisión de contratos
-
-**Ejemplo:**
-Sistema que analiza contratos y detecta cláusulas de riesgo automáticamente.
-
----
-
-### 5. Visualización y Comunicación
-
-Se presentan los resultados mediante:
-
-- Dashboards interactivos
-- Reportes ejecutivos
-- Indicadores clave (KPIs)
-
-**Ejemplo de KPIs:**
-
-- Tasa de éxito por área legal
-- Casos en riesgo
-- Rendimiento por abogado
+- **Data Lakehouse** → Fuente principal de datos
+- **Business Analytics** → Modelos descriptivos y predictivos base
+- **Agentes Inteligentes (LLMs)** → Aplicación avanzada de IA
+- **BI** → Visualización de resultados
+- **Gobernanza y CISO** → Cumplimiento y seguridad
 
 ---
 
-## Colaboración
+## Consideraciones de Seguridad y Ética
 
-El Científico de Datos trabaja con:
+En coordinación con el CISO, el Científico de Datos garantiza:
 
-- **Ingenieros de Datos**: Infraestructura y procesamiento
-- **Equipo Legal**: Validación de resultados
-- **MLOps**: Despliegue de modelos
-- **Seguridad y Gobernanza**: Protección y cumplimiento
-
----
-
-## Ética y Cumplimiento
-
-Aspectos críticos en el entorno legal:
-
-- Protección de datos sensibles
-- Cumplimiento normativo
-- Transparencia en modelos
-- Mitigación de sesgos
+- Uso responsable de datos sensibles
+- Cumplimiento de normativas legales
+- Prevención de sesgos en modelos
+- Protección contra fugas de información en IA
+- Transparencia en decisiones automatizadas
 
 ---
 
-## Caso de Uso
+## Resultado Esperado
 
-### Escenario
+La implementación del rol del Científico de Datos permite a Frodalex Systems:
 
-Un cliente presenta un caso laboral.
-
-### Proceso
-
-1. El sistema analiza casos similares
-2. Calcula probabilidad de éxito
-3. Estima duración y costo
-4. Sugiere estrategia (litigar o negociar)
-
-### Resultado
-
-El abogado toma decisiones basadas en datos, aumentando la probabilidad de éxito y optimizando recursos.
+- Anticipar resultados legales
+- Reducir incertidumbre en litigios
+- Aumentar la eficiencia operativa
+- Automatizar tareas repetitivas
+- Fortalecer su ventaja competitiva mediante el uso de IA
 
 ---
 
-## Beneficios
+## Ejemplo de Flujo Completo
 
-- Toma de decisiones basada en evidencia
-- Reducción de tiempos y costos
-- Mayor tasa de éxito en litigios
-- Mejora en la atención al cliente
-- Ventaja competitiva
-
----
-
-## Tecnologías Sugeridas
-
-- Python (Pandas, Scikit-learn, NLP)
-- SQL
-- Power BI / Tableau
-- Apache Spark
-- Herramientas de MLOps (Docker, MLflow)
+1. Se ingresa un nuevo caso al sistema  
+2. El modelo analiza casos similares en el Data Lakehouse  
+3. Se calcula la probabilidad de éxito  
+4. Se estiman tiempos y costos  
+5. El sistema sugiere estrategia legal  
+6. El abogado toma decisiones informadas  
 
 ---
+
+## Conclusión
+
+El Científico de Datos en Frodalex Systems actúa como un puente entre el conocimiento jurídico y la inteligencia artificial, permitiendo transformar datos complejos en decisiones estratégicas, automatizadas y basadas en evidencia.
 
 ## Referencias
 
