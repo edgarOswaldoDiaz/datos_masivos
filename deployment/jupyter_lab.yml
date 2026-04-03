@@ -1,0 +1,25 @@
+services:
+  jupyter:
+    image: jupyter/datascience-notebook:latest  # Imagen oficial de Jupyter con soporte para Python, R y librerías científicas
+    container_name: jupyter_r_python  # Nombre legible del contenedor
+
+    ports:
+      - "8888:8888"  # Expone Jupyter Notebook en el puerto 8888 del host
+
+    volumes:
+      - lago_de_datos:/datos/lagodedatos  # Volumen persistente ("lago de datos") montado dentro del contenedor
+
+    environment:
+      - JUPYTER_ENABLE_LAB=yes  # Habilita JupyterLab como interfaz por defecto
+      - NB_USER=jovyan          # Usuario por defecto dentro del contenedor
+      - NB_UID=1000             # UID del usuario para compatibilidad con permisos del host
+      - NB_GID=100              # GID del usuario
+
+    restart: unless-stopped     # Reinicia el contenedor automáticamente salvo que se detenga manualmente
+
+    working_dir: /datos/lagodedatos  # Directorio de trabajo inicial al abrir Jupyter
+
+volumes:
+  lago_de_datos:
+    name: lago_de_datos  # Nombre real del volumen Docker (los espacios no son válidos en Docker)
+    driver: local        # Driver local para almacenamiento en disco
