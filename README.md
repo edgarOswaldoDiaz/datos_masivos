@@ -18,7 +18,7 @@
 - 2.4.4 [Casos prácticos.](assets/ibm_cognos.md)
 
 #### Herramientas 
-- [Contenedores](assets/contenedores.md)
+- [Contenedores](assets/contenedores.md) | [Contenedor para Jupyter Lab](deployment/jupyter_lab.yml)
 
 
 #### Unidad 3 “R” para ciencia de datos.
