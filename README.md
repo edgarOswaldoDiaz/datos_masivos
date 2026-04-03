@@ -17,6 +17,10 @@
 - 2.4.3 [Crear presentaciones siguiendo una narrativa temporal (stories)](assets/ibm_cognos.md)
 - 2.4.4 [Casos prácticos.](assets/ibm_cognos.md)
 
+#### Herramientas 
+- [Contenedores](assets/contenedores.md)
+
+
 #### Unidad 3 “R” para ciencia de datos.
 - 3.1 [Análisis de sentimientos en “R”](assets/analisis_r.md)
 - 3.1.1 [Un paseo por el software “R”](assets/paseox_r.md)
