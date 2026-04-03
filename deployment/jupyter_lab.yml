@@ -14,6 +14,7 @@ services:
       - NB_USER=jovyan          # Usuario por defecto dentro del contenedor
       - NB_UID=1000             # UID del usuario para compatibilidad con permisos del host
       - NB_GID=100              # GID del usuario
+      - JUPYTER_TOKEN=AccesoJupyterLab  # Token fijo de acceso a JupyterLab
 
     restart: unless-stopped     # Reinicia el contenedor automáticamente salvo que se detenga manualmente
 
@@ -22,4 +23,4 @@ services:
 volumes:
   lago_de_datos:
     name: lago_de_datos  # Nombre real del volumen Docker (los espacios no son válidos en Docker)
-    driver: local        # Driver local para almacenamiento en disco
+    driver: local        # Driver local para almacenamiento en disco local
