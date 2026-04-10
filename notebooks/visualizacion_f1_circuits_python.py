@@ -4,7 +4,6 @@ Visualización del archivo f1_circuits.csv
 Este script muestra paso a paso cómo cargar, explorar y visualizar
 el contenido del archivo f1_circuits.csv utilizando Python.
 
-Cada línea de código está documentada detalladamente con fines educativos.
 """
 
 # ================================
