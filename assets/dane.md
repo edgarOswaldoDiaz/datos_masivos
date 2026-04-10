@@ -1,3 +1,5 @@
+#### DANE - Estrategía para documentar un proyecto de Ciencia de Datos
+
 - "assets" Almacena archivos estáticos y recursos adicionales como imágenes y documentos.
 
 - "config" Contiene los archivos de configuración del proyecto, incluyendo configuraciones de logs.
@@ -24,4 +26,5 @@
 
 ______
 Referencia 
-> 
+
+> DANE Colombia 2025 https://www.dane.gov.co/ 
