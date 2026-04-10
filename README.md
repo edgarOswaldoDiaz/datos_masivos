@@ -21,7 +21,7 @@
 - [Contenedores](assets/contenedores.md) | [Comandos de Docker](assets/comandos_docker.md) | [Comandos de Podman](assets/comandos_podman.md) | [Contenedor para Jupyter Lab](deployment/jupyter_lab.yml)
 
 #### Tips & Tricks 
-- [Ética para uso de Vibe Coding](assets/etica_vibecoding.md) 
+- [Ética para uso de Vibe Coding](assets/etica_vibecoding.md) | [Dataset](https://www.kaggle.com/)
 
 #### Unidad 3 “R” para ciencia de datos.
 - 3.1 [Análisis de sentimientos en “R”](assets/analisis_r.md)
