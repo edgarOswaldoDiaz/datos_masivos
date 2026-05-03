@@ -250,10 +250,16 @@ En el contexto del SNA:
     *   Justificables
     *   Auditables
 
+_________________________
 
+Referencia 
 
+> Borgatti, S. P., Everett, M. G., & Johnson, J. C. (2018). Analyzing social networks (2nd ed.). SAGE Publications.
 
+> boyd, d., & Crawford, K. (2012). Critical questions for big data: Provocations for a cultural, technological, and scholarly phenomenon. Information, Communication & Society, 15(5), 662–679. 
 
+> Floridi, L., & Taddeo, M. (2016). What is data ethics? Philosophical Transactions of the Royal Society A: Mathematical, Physical and Engineering Sciences, 374(2083), 20160360.
 
+> Organización de los Estados Americanos (OEA). (2021). Principios actualizados sobre la privacidad y la protección de datos personales.
 
 
