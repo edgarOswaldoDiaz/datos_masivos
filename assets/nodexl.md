@@ -25,4 +25,4 @@ Tabla: ¿Qué es NodeXL y cómo utilizarlo?
 | **Cómo se utiliza (flujo general)**      | 1. Importar o recolectar datos <br>2. Definir nodos y aristas <br>3. Calcular métricas de red <br>4. Aplicar algoritmos de agrupamiento <br>5. Visualizar y ajustar el grafo <br>6. Interpretar resultados                                                                                    |
 | **Rol dentro del curso**                 | NodeXL actúa como **puente conceptual** entre la teoría del Análisis de Redes Sociales y herramientas más avanzadas de Big Data, permitiendo comprender métricas, estructuras y visualizaciones antes de escalar a soluciones programáticas.                                                  |
 
-
+Referencia [Documentación NodeXL](https://nodexl.com/)
