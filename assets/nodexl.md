@@ -90,5 +90,45 @@ Tabla: Agrupar por Clusters (Conglomerados) en NodeXL
 | **Casos de uso académicos**            | Análisis de comunidades en Twitter, redes de colaboración científica, análisis organizacional, detección de cámaras de eco, estudios de polarización social.                                                          |
 | **Limitaciones**                       | Los resultados dependen de la calidad de los datos y de la estructura de la red. Redes muy densas o muy pequeñas pueden producir clusters poco interpretables.                                                        |
 
+Requisitos Previos
+
+Para que este ejemplo funcione, asegúrate de tener:
+*   **Microsoft Excel** instalado.
+*   **NodeXL Pro** (la versión gratuita "Basic" tiene funciones muy limitadas para importación directa desde redes sociales).
+*   **Cuenta de Desarrollador de X:** Necesitarás un *Bearer Token* que obtienes en el [X Developer Portal](https://developer.x.com/).
+
+Paso a Paso para la Descarga
+
+Paso 1: Abrir la plantilla de NodeXL
+No abras un Excel común. Busca en tu equipo el acceso directo de **NodeXL Excel Template**. Esto abrirá un libro de Excel con una pestaña especial en la cinta de opciones llamada **NodeXL Pro**.
+
+Paso 2: Seleccionar la fuente de datos
+1.  Haz clic en la pestaña **NodeXL Pro**.
+2.  En el grupo "Data", haz clic en **Import**.
+3.  Selecciona la opción **From Twitter Search Network...** (NodeXL suele mantener el nombre "Twitter" por compatibilidad, aunque se refiera a X).
+
+Paso 3: Configurar la búsqueda y autenticación
+Se abrirá una ventana emergente. Aquí es donde ocurre la "magia":
+1.  **Search for:** Escribe el término, hashtag o usuario que deseas rastrear (ejemplo: `#ArtificialIntelligence`).
+2.  **Authentication:** Haz clic en el botón de login o pega tu **Bearer Token** de X si el programa te lo solicita. Sin esto, la descarga fallará inmediatamente.
+3.  **Limit:** Define cuántos tweets quieres traer (ejemplo: 100, 500, 1000). Ten en cuenta que los niveles gratuitos de la API de X tienen límites muy estrictos por mes.
+
+Paso 4: Definir el tipo de red
+En la misma ventana, verás opciones para "Network Configuration". Puedes elegir qué conexiones quieres ver:
+*   **Follows:** Quién sigue a quién.
+*   **Replies/Mentions:** Quién responde a quién (ideal para ver conversaciones).
+*   **Tweets:** Solo los mensajes individuales.
+
+Paso 5: Procesar los datos
+Haz clic en **OK**. NodeXL comenzará a llamar a la API de X. Verás una barra de progreso. Una vez finalizado, las hojas de Excel (`Vertices`, `Edges`) se llenarán automáticamente con nombres de usuario, el contenido de los posts y las relaciones entre ellos.
+
+Visualización y Análisis
+Una vez que los datos están en el Excel, el trabajo no termina ahí:
+
+**Calcular Métricas:** Ve a `Graph Metrics` para que NodeXL calcule quiénes son los usuarios más influyentes (Betweenness Centrality).
+**Mostrar el Grafo:** En el panel derecho, haz clic en **Show Graph**. Verás una red de puntos (nodos) y líneas (enlaces) que representan la conversación en X.
+
+**Nota importante:** Si al intentar importar recibes un error de "403 Forbidden" o "401 Unauthorized", lo más probable es que tu nivel de acceso a la API de X sea insuficiente o que tus llaves de desarrollador no estén configuradas para lectura. ¡X se ha vuelto bastante estricto con esto últimamente!
+
 
 
