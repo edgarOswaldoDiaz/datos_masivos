@@ -26,3 +26,32 @@ Tabla: ¿Qué es NodeXL y cómo utilizarlo?
 | **Rol dentro del curso**                 | NodeXL actúa como **puente conceptual** entre la teoría del Análisis de Redes Sociales y herramientas más avanzadas de Big Data, permitiendo comprender métricas, estructuras y visualizaciones antes de escalar a soluciones programáticas.                                                  |
 
 Referencia [Documentación NodeXL](https://nodexl.com/)
+
+Conceptos Fundamentales de Social Network Analysis (SNA)
+
+| Concepto                                        | Descripción detallada                                                                          | Aplicación en NodeXL                                                 |
+| ----------------------------------------------- | ---------------------------------------------------------------------------------------------- | -------------------------------------------------------------------- |
+| **Red (Network)**                               | Conjunto de entidades interconectadas mediante relaciones. Se modela como un grafo matemático. | Toda visualización y análisis parte de una red cargada en NodeXL.    |
+| **Nodo (Vertex)**                               | Entidad individual dentro de la red (persona, cuenta, organización, hashtag).                  | Cada fila en la hoja *Vertices*.                                     |
+| **Arista (Edge)**                               | Relación entre dos nodos; puede representar interacción, comunicación o vínculo.               | Definida en la hoja *Edges*.                                         |
+| **Red dirigida**                                | Red donde las relaciones tienen dirección (A → B).                                             | Ej. menciones o retuits en Twitter.                                  |
+| **Red no dirigida**                             | Red donde la relación es bidireccional (A — B).                                                | Ej. amistad o coautoría.                                             |
+| **Grado (Degree)**                              | Número de conexiones de un nodo. Refleja actividad o popularidad.                              | Métrica básica calculada automáticamente.                            |
+| **Grado de entrada (In-Degree)**                | Número de aristas que llegan a un nodo.                                                        | Indica visibilidad o influencia recibida.                            |
+| **Grado de salida (Out-Degree)**                | Número de aristas que salen de un nodo.                                                        | Mide nivel de actividad o emisión.                                   |
+| **Centralidad de intermediación (Betweenness)** | Mide cuánto un nodo actúa como puente entre otros nodos.                                       | Identifica brokers, líderes o mediadores.                            |
+| **Centralidad de cercanía (Closeness)**         | Indica qué tan cerca está un nodo de todos los demás.                                          | Mide rapidez potencial de difusión.                                  |
+| **Centralidad de eigenvector**                  | Considera tanto la cantidad como la importancia de las conexiones.                             | Identifica actores influyentes estructuralmente.                     |
+| **Densidad**                                    | Proporción de conexiones existentes respecto al total posible.                                 | Evalúa cohesión general de la red.                                   |
+| **Componentes**                                 | Subredes desconectadas entre sí dentro de la red global.                                       | NodeXL identifica componentes automáticamente.                       |
+| **Comunidad (Cluster)**                         | Grupo de nodos con mayor interacción interna que externa.                                      | Detectada con algoritmos como Clauset-Newman-Moore.                  |
+| **Modularidad**                                 | Métrica que cuantifica la calidad de la partición en comunidades.                              | Útil para validar segmentación de la red.                            |
+| **Hubs**                                        | Nodos con alto grado que concentran conexiones.                                                | Identificados por métricas de centralidad.                           |
+| **Autoridades (Authorities)**                   | Nodos que reciben enlaces de hubs importantes.                                                 | Aplica principalmente en redes dirigidas.                            |
+| **Camino (Path)**                               | Secuencia de nodos conectados entre dos nodos.                                                 | Base para métricas de distancia.                                     |
+| **Longitud promedio del camino**                | Distancia media entre pares de nodos.                                                          | Analiza eficiencia de la red.                                        |
+| **Visualización de red**                        | Representación gráfica de nodos y aristas.                                                     | NodeXL ofrece múltiples layouts (Fruchterman-Reingold, Harel-Koren). |
+| **Atributos de nodos/aristas**                  | Variables adicionales que describen características.                                           | Se usan para color, tamaño, filtros y análisis.                      |
+
+
+
