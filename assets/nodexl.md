@@ -72,4 +72,23 @@ Tabla: Importar y preparar datos de la red social X en NodeXL
 | **Preparación para visualización**         | Definir tamaño, color y forma de nodos/aristas según atributos.                                                      | Facilitar interpretación visual del grafo.                                         | No sobrecargar la visualización.                                                            |
 | **Documentación del proceso**              | Registro de parámetros, fechas, criterios y versiones de datos.                                                      | Garantizar reproducibilidad científica.                                            | Fundamental en contexto académico.                                                          |
 
+Tabla: Agrupar por Clusters (Conglomerados) en NodeXL
+
+| **Elemento**                           | **Descripción detallada**                                                                                                                                                                                             |
+| -------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Objetivo del clustering**            | Identificar comunidades o subgrupos dentro de una red, maximizando la densidad de conexiones internas y minimizando las externas. Permite entender la estructura social, segmentación y dinámicas internas de la red. |
+| **Ubicación en NodeXL**                | Menú: **Graph Metrics → Groups → Group by Cluster**. NodeXL calcula automáticamente los conglomerados basándose en la estructura de la red.                                                                           |
+| **Algoritmo principal**                | Algoritmos basados en **modularidad**, que buscan particiones donde la conectividad interna sea significativamente mayor a la esperada en una red aleatoria del mismo tamaño.                                         |
+| **Entrada del algoritmo**              | Grafo completo definido por vértices y aristas, considerando si la red es dirigida o no dirigida, y si las aristas tienen peso.                                                                                       |
+| **Criterio de agrupación**             | Maximización de la **modularidad**, que evalúa la calidad de la partición de la red en clusters. Valores altos indican grupos bien definidos.                                                                         |
+| **Resultado del clustering**           | Cada vértice queda asignado a un **cluster (Group)** identificado por un número o etiqueta. Esta información se almacena automáticamente en la hoja *Vertices*.                                                       |
+| **Número de clusters**                 | No se define manualmente; el algoritmo lo determina de forma automática en función de la estructura de la red. Esto favorece descubrimientos no supervisados.                                                         |
+| **Interpretación analítica**           | Cada cluster suele representar una **comunidad temática, social o funcional**. En redes sociales, pueden corresponder a grupos ideológicos, intereses comunes o patrones de interacción.                              |
+| **Visualización**                      | NodeXL puede: <br>• Asignar **colores distintos** a cada cluster <br>• Separar espacialmente los conglomerados <br>• Aplicar distintos layouts para enfatizar la estructura comunitaria                               |
+| **Relación con métricas individuales** | El análisis de clusters se complementa con métricas como **centralidad**, permitiendo identificar líderes dentro de cada comunidad o nodos puente entre clusters.                                                     |
+| **Uso en Big Data**                    | Facilita la segmentación de grandes volúmenes de datos relacionales, reduciendo la complejidad y permitiendo análisis escalables y comparativos.                                                                      |
+| **Casos de uso académicos**            | Análisis de comunidades en Twitter, redes de colaboración científica, análisis organizacional, detección de cámaras de eco, estudios de polarización social.                                                          |
+| **Limitaciones**                       | Los resultados dependen de la calidad de los datos y de la estructura de la red. Redes muy densas o muy pequeñas pueden producir clusters poco interpretables.                                                        |
+
+
 
