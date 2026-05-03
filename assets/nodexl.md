@@ -1,5 +1,3 @@
-<img src="assets/recursos/logo_nodexl.png">
-
 #### Análisis de Redes Sociales con NodeXL
 
 **NodeXL** es una herramienta especializada en **Análisis de Redes Sociales (Social Network Analysis, SNA)** que se integra directamente como un complemento de **Microsoft Excel**, lo que la hace especialmente útil para perfiles que combinan análisis de datos, visualización y exploración interactiva de redes complejas sin requerir programación avanzada.
