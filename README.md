@@ -52,7 +52,7 @@
 - 4.4.1 [Visualización dinámica](assets/visualizacion.md)
 
 #### Unidad 5 Análisis de redes sociales. (social network analysis)
-- 5.1 ¿Qué es Social Analytics y cuáles son sus usos?
+- 5.1 [¿Qué es Social Analytics y cuáles son sus usos?](assets/socialanalytics.md)
 - 5.2 Análisis de redes sociales con NodeXL:
 - 5.2.1 Conceptos de Social Network
 - 5.2.2 Importar y preparar datos de Twitter
