@@ -130,5 +130,52 @@ Una vez que los datos están en el Excel, el trabajo no termina ahí:
 
 **Nota importante:** Si al intentar importar recibes un error de "403 Forbidden" o "401 Unauthorized", lo más probable es que tu nivel de acceso a la API de X sea insuficiente o que tus llaves de desarrollador no estén configuradas para lectura. ¡X se ha vuelto bastante estricto con esto últimamente!
 
+Tabla Calcular métricas vs. Análisis de series de tiempo en NodeXL
+
+| Dimensión                  | Calcular métricas de red                                                              | Análisis de series de tiempo en redes                                             |
+| -------------------------- | ------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------- |
+| **Propósito principal**    | Medir la **estructura estática** de la red y la importancia relativa de nodos         | Analizar la **evolución de la red a lo largo del tiempo**                         |
+| **Pregunta clave**         | ¿Quién es importante y cómo está estructurada la red?                                 | ¿Cómo cambia la red, la influencia y la interacción con el tiempo?                |
+| **Tipo de análisis**       | Estructural y topológico                                                              | Temporal y dinámico                                                               |
+| **Nivel de análisis**      | Nodo, arista y red completa                                                           | Nodo–tiempo, arista–tiempo, red–tiempo                                            |
+| **Datos requeridos**       | Lista de nodos y relaciones (snapshot único)                                          | Relaciones con **marca temporal** (timestamp)                                     |
+| **Métricas típicas**       | Degree, In-Degree, Out-Degree, Betweenness, Closeness, Eigenvector, PageRank, Density | Evolución de Degree, aparición/desaparición de nodos, persistencia de comunidades |
+| **Unidad de observación**  | Grafo completo en un momento dado                                                     | Secuencia de grafos (t₁, t₂, …, tₙ)                                               |
+| **Tratamiento temporal**   | El tiempo no es relevante                                                             | El tiempo es la dimensión central                                                 |
+| **Herramientas en NodeXL** | Graph Metrics → Overall Metrics / Vertex Metrics                                      | Filtros por fecha, análisis por intervalos, grafos múltiples                      |
+| **Visualización**          | Un único grafo con nodos dimensionados y coloreados                                   | Múltiples grafos o animaciones secuenciales                                       |
+| **Ejemplo**                | Identificar líderes de opinión en una red de Twitter                                  | Analizar cómo emergen y desaparecen líderes durante un evento                     |
+| **Interpretación**         | Importancia estructural y roles en la red                                             | Dinámica de difusión, ciclos de actividad                                         |
+| **Casos de uso**           | Influencia, centralidad, intermediación, cohesión                                     | Tendencias, crisis, campañas, eventos sociales                                    |
+| **Limitaciones**           | No detecta cambios temporales                                                         | Mayor complejidad y costo computacional                                           |
+
+
+Tabla Análisis de sentimientos en texto generando una Network en NodeXL
+
+| Dimensión                     | Descripción detallada                                                                            |
+| ----------------------------- | ------------------------------------------------------------------------------------------------ |
+| **Objetivo**                  | Analizar **emociones, opiniones o polaridad** del texto y su **relación estructural** en una red |
+| **Origen de datos**           | Tweets, comentarios, publicaciones, correos, reseñas                                             |
+| **Elementos textuales**       | Texto completo, hashtags, menciones, palabras clave                                              |
+| **Preprocesamiento**          | Limpieza de texto, normalización, eliminación de stopwords                                       |
+| **Análisis de sentimientos**  | Clasificación del texto como positivo, negativo o neutral (o escalas numéricas)                  |
+| **Asignación de sentimiento** | El sentimiento se asocia a nodos (usuarios) o aristas (interacciones)                            |
+| **Modelo de red**             | Nodos = usuarios / conceptos; Aristas = interacción o co-ocurrencia                              |
+| **Tipo de network generada**  | Red social semántica o socio-emocional                                                           |
+| **Construcción del grafo**    | Relaciones basadas en menciones, respuestas, uso de palabras                                     |
+| **Atributos de nodos**        | Sentimiento promedio, volumen de mensajes, centralidad                                           |
+| **Atributos de aristas**      | Intensidad emocional, frecuencia de interacción                                                  |
+| **Codificación visual**       | Colores por sentimiento, tamaño por centralidad                                                  |
+| **Herramientas en NodeXL**    | Vertex attributes, Dynamic filters, visual styles                                                |
+| **Clustering posible**        | Agrupación de comunidades por polaridad emocional                                                |
+| **Preguntas que responde**    | ¿Quién genera discurso negativo? ¿Cómo se propaga sentimientos?                                  |
+| **Ejemplo práctico**          | Red de Twitter sobre una política pública con polarización emocional                             |
+| **Interpretación analítica**  | Relación entre estructura social e impacto emocional                                             |
+| **Aplicaciones**              | Opinión pública, reputación, monitoreo social, marketing                                         |
+| **Limitaciones**              | Ambigüedad del lenguaje, sarcasmo, dependencia del modelo léxico                                 |
+
+
+
+
 
 
