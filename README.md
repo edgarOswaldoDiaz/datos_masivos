@@ -60,7 +60,7 @@
 - 5.2.4 [Calcular métricas v. Análisis de series de tiempo](assets/nodexl.md)
 - 5.2.5 [Análisis de sentimientos en texto](assets/nodexl.md)
 - 5.2.6 [Network](assets/nodexl.md)
-- 5.3 Consideraciones éticas sobre el análisis de redes sociales
+- 5.3 [Consideraciones éticas sobre el análisis de redes sociales](assets/eticaredessociales.md)
 _____________________________
 Referencias 
 
