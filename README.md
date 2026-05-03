@@ -56,10 +56,10 @@
 - 5.2 [Análisis de redes sociales con NodeXL:](assets/nodexl.md)
 - 5.2.1 [Conceptos de Social Network](assets/nodexl.md)
 - 5.2.2 [Importar y preparar datos de Twitter](assets/nodexl.md) Nota: En 2023 la API de Twitter se llama "X"
-- 5.2.3 Agrupar por clusters (conglomerados)
-- 5.2.4 Calcular métricas v. Análisis de series de tiempo
-- 5.2.5 Análisis de sentimientos en texto
-- 5.2.6 Network
+- 5.2.3 [Agrupar por clusters (conglomerados)](assets/nodexl.md)
+- 5.2.4 [Calcular métricas v. Análisis de series de tiempo](assets/nodexl.md)
+- 5.2.5 [Análisis de sentimientos en texto](assets/nodexl.md)
+- 5.2.6 [Network](assets/nodexl.md)
 - 5.3 Consideraciones éticas sobre el análisis de redes sociales
 _____________________________
 Referencias 
