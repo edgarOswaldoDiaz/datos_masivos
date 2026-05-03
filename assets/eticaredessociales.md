@@ -4,9 +4,7 @@ El **análisis de redes sociales (Social Network Analysis, SNA)** estudia las re
 
 Las consideraciones éticas en SNA giran principalmente en torno a la **privacidad**, el **consentimiento**, el **uso responsable de los datos**, el **riesgo de daño**, la **equidad**, y la **transparencia** del análisis.
 
-***
-
-### 1. Privacidad y confidencialidad de los datos
+Privacidad y confidencialidad de los datos
 
 Uno de los principales retos éticos del análisis de redes sociales es la **protección de la privacidad de los individuos** cuyos datos forman parte de la red.
 
@@ -17,11 +15,9 @@ Uno de los principales retos éticos del análisis de redes sociales es la **pro
     *   Relaciones personales o profesionales
 *   La **re-identificación** es un riesgo latente: aun eliminando nombres o identificadores directos, la estructura de la red puede permitir identificar individuos clave mediante métricas como centralidad, intermediación o proximidad.
 
-🔹 **Principio ético clave:** proteger tanto los atributos individuales como las **relaciones** entre actores.
+**Principio ético clave:** proteger tanto los atributos individuales como las **relaciones** entre actores.
 
-***
-
-### 2. Consentimiento informado
+Consentimiento informado
 
 El **consentimiento informado** es particularmente complejo en el análisis de redes sociales:
 
@@ -34,11 +30,11 @@ Aspectos críticos:
 *   ¿Los usuarios comprenden que sus interacciones pueden ser analizadas para inferir comportamientos o influencias?
 *   ¿El uso del dato coincide con el propósito original para el que fue generado?
 
-🔹 **Buena práctica:** evaluar si el uso del dato respeta el contexto original (principio de **integridad contextual**) y minimizar usos secundarios no anticipados por los usuarios.
+**Buena práctica:** evaluar si el uso del dato respeta el contexto original (principio de **integridad contextual**) y minimizar usos secundarios no anticipados por los usuarios.
 
 ***
 
-### 3. Riesgo de daño social, psicológico o reputacional
+Riesgo de daño social, psicológico o reputacional
 
 Los resultados del SNA pueden generar **impactos negativos no intencionados**, tales como:
 
@@ -52,11 +48,9 @@ Ejemplos de riesgo:
 *   Evaluaciones laborales basadas en métricas de centralidad social.
 *   Perfilamiento de comunidades vulnerables.
 
-🔹 **Principio ético clave:** anticipar consecuencias y aplicar el principio de **no maleficencia**.
+**Principio ético clave:** anticipar consecuencias y aplicar el principio de **no maleficencia**.
 
-***
-
-### 4. Uso responsable y finalidad del análisis
+Uso responsable y finalidad del análisis
 
 El análisis de redes sociales debe realizarse con una **finalidad clara, legítima y proporcional**.
 
@@ -71,11 +65,9 @@ En contextos de Big Data:
 *   Es común reutilizar datos históricos para nuevos fines.
 *   La ética exige evaluar si dicho reuso es **justificado y transparente**.
 
-🔹 **Recomendación:** documentar explícitamente objetivos, supuestos y límites del análisis.
+**Recomendación:** documentar explícitamente objetivos, supuestos y límites del análisis.
 
-***
-
-### 5. Sesgos, exclusión y equidad
+Sesgos, exclusión y equidad
 
 Los datos de redes sociales no suelen ser representativos de toda la población:
 
@@ -88,11 +80,9 @@ Implicaciones éticas:
 *   Decisiones basadas en análisis sesgados pueden perpetuar discriminación.
 *   “Lo que no aparece en la red” también es información relevante.
 
-🔹 **Buena práctica:** reconocer explícitamente sesgos estructurales y limitaciones del dataset.
+**Buena práctica:** reconocer explícitamente sesgos estructurales y limitaciones del dataset.
 
-***
-
-### 6. Transparencia, explicabilidad y rendición de cuentas
+Transparencia, explicabilidad y rendición de cuentas
 
 Desde una perspectiva ética, es fundamental que el análisis de redes sea:
 
@@ -105,9 +95,7 @@ En contextos académicos y profesionales:
 *   Evitar el uso de métricas de red como “verdades objetivas”.
 *   Reconocer que las decisiones metodológicas influyen fuertemente en los resultados.
 
-***
-
-### 7. Cumplimiento normativo y marcos éticos
+Cumplimiento normativo y marcos éticos
 
 El SNA debe alinearse con:
 
@@ -117,17 +105,8 @@ El SNA debe alinearse con:
 
 Más allá del cumplimiento legal, la ética exige una **reflexión crítica continua** sobre el impacto social del análisis.
 
-***
-
-## Conclusión
+Conclusión
 
 El análisis de redes sociales es una herramienta poderosa dentro de la ciencia de datos y el Big Data, pero su uso responsable requiere **conciencia ética profunda**. No basta con saber qué se puede analizar; es indispensable cuestionar **si se debe**, **cómo hacerlo**, y **con qué consecuencias sociales**. La ética en SNA no es un obstáculo metodológico, sino una condición esencial para una práctica científica y profesional responsable.
 
-***
 
-Si quieres, puedo ayudarte a:
-
-*   Convertir este contenido en **diapositivas**
-*   Agregar **casos de estudio reales**
-*   Diseñar **preguntas de discusión para clase**
-*   Relacionarlo con **marcos legales específicos de México o América Latina**
