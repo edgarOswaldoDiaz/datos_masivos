@@ -9,7 +9,7 @@
 
 ### Diagrama para seleccionar que método definir para el proyecto 
 
-![Diagrama de métodos](LCiD_diagrama_datos_sinteticos.jpg)
+![Diagrama de métodos](assets/recursos/diagrama_datos_sinteticos.jpg)
 
 ### Métodos para generar datos sintéticos.
 
