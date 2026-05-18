@@ -11,6 +11,8 @@
 
 ![Diagrama de métodos](assets/recursos/diagrama_datos_sinteticos.jpg)
 
+<img src="assets/recursos/diagrama_datos_sinteticos.jpg">
+
 ### Métodos para generar datos sintéticos.
 
 - Datos simulados: archivos ficticios: se enfoca en mantener la estructura, pero no el valor analítico de los datos originales.
