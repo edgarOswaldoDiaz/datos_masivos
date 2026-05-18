@@ -62,23 +62,7 @@ El otro modelo es llamado el discriminador, recibe un registro y trata de discer
 Estos dos modelos son entrenados de manera iterativa con el objetivo de vencer a su contraparte hasta que se logra un equilibrio entre ambos. 
 El generador es entrenado para poder crear registros que parezcan reales, mientras el discriminador es entrenado para encontrar las sutiles diferencias entre los datos reales y generados.
 
-# Marco normativo
+___________
 
-Política para la Gestión de la Confidencialidad en la Información Estadística y Geográfica
-
-Artículo 11.- En la producción de Información Estadística y Geográfica, las Unidades del Estado deberán implementar medidas para:
-
-V. Asegurar que la difusión de la Información se realiza de manera que los Informantes del Sistema y, en general, las personas físicas o morales objeto de la Información no sean identificados de manera directa o indirecta, por lo que previo a la entrega de resultados deben evaluar el riesgo de Identificación de acuerdo con lo siguiente: 
-
-a) Se considera que el nivel de riesgo es alto cuando la Identificación es inmediata. Con sólo acceder a la     Información es posible reconocer a la persona física o moral a la que corresponden los datos; o cuando la Identificación se deduce de la combinación de diferentes variables contenidas en el mismo producto de difusión de la Información; 
-
-b) Se considera que el nivel de riesgo es medio cuando la Identificación se logra realizando la suma o resta de algunas clases o agrupamientos del mismo tabulado y combinando el resultado con otros productos de Información Estadística o Geográfica; 
-
-c) Se considera que el nivel de riesgo es bajo cuando la Identificación se logra combinando la Información con distintos repositorios públicos y privados de datos utilizando técnicas de análisis, software y equipo de cómputo, y 
-
-d) Se considera que el nivel de riesgo es nulo cuando no es posible realizar la Identificación por cualquier medio o por la combinación de cualquier variable de Información. 
-
-Las Unidades del Estado, cuando contraten a un tercero para la producción de la Información, deben verificar que las medidas referidas en el presente artículo queden establecidas en los contratos respectivos, así como vigilar su cumplimiento.
-
-> Referencia: INEGI. (octubre 29, 2021). Política para la Gestión de la Confidencialidad en la Información Estadística y Geográfica. agosto 2, 2022, de SNIEG Sitio web: https://www.snieg.mx/Documentos/Normatividad/Vigente/politica_inf_estad_geog.pdf
+> Naciones Unidas. (2023). Synthetic data for official statistics: A starter guide. UNECE. https://unece.org/statistics/publications/synthetic-data-official-statistics-starter-guide
 
