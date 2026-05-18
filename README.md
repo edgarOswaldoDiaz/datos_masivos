@@ -23,6 +23,20 @@
 #### Tips & Tricks 
 - [Ética para uso de Vibe Coding](assets/etica_vibecoding.md) | [Documentación de un proyecto](assets/dane.md) | [Dataset](https://www.kaggle.com/) | [Datos sintéticos](assets/datos_sinteticos.md)
 
+<table>
+  <tr style="background-color: #ffcc66;">
+    <th>Columna 1</th>
+    <th>Columna 2</th>
+  </tr>
+  <tr style="background-color: #ffcc66;">
+    <td>Dato A</td>
+    <td>Dato B</td>
+  </tr>
+</table>
+
+
+
+
 #### Unidad 3 “R” para ciencia de datos.
 - 3.1 [Análisis de sentimientos en “R”](assets/analisis_r.md)
 - 3.1.1 [Un paseo por el software “R”](assets/paseox_r.md)
