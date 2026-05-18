@@ -17,24 +17,19 @@
 - 2.4.3 [Crear presentaciones siguiendo una narrativa temporal (stories)](assets/ibm_cognos.md)
 - 2.4.4 [Casos prácticos.](assets/ibm_cognos.md)
 
-#### Herramientas 
-- [Contenedores](assets/contenedores.md) | [Comandos de Docker](assets/comandos_docker.md) | [Comandos de Podman](assets/comandos_podman.md) | [Contenedor para Jupyter Lab](deployment/jupyter_lab.yml)
-
-#### Tips & Tricks 
-- [Ética para uso de Vibe Coding](assets/etica_vibecoding.md) | [Documentación de un proyecto](assets/dane.md) | [Dataset](https://www.kaggle.com/) | [Datos sintéticos](assets/datos_sinteticos.md)
 
 <table>
   <tr style="background-color: #ffcc66;">
-    <th>Columna 1</th>
-    <th>Columna 2</th>
+    <th>#### Herramientas </th>
+    <th>#### Tips & Tricks </th>
   </tr>
   <tr style="background-color: #ffcc66;">
-    <td>Dato A</td>
-    <td>Dato B</td>
+    <td>- [Contenedores](assets/contenedores.md) | [Comandos de Docker](assets/comandos_docker.md) | [Comandos de Podman](assets/comandos_podman.md) | [Contenedor para Jupyter Lab](deployment/jupyter_lab.yml)
+</td>
+    <td>- [Ética para uso de Vibe Coding](assets/etica_vibecoding.md) | [Documentación de un proyecto](assets/dane.md) | [Dataset](https://www.kaggle.com/) | [Datos sintéticos](assets/datos_sinteticos.md)
+</td>
   </tr>
 </table>
-
-
 
 
 #### Unidad 3 “R” para ciencia de datos.
