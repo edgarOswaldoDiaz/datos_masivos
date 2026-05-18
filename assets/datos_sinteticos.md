@@ -1,4 +1,4 @@
-# Marco experimental de datos sintéticos 
+# Técnicas para generación de datos sintéticos 
 
 ¿Por qué usar datos sintéticos en el INEGI?
 
