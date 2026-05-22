@@ -62,7 +62,8 @@ ___________________________
 - [Contenedores](assets/contenedores.md) | [Comandos de Docker](assets/comandos_docker.md) | [Comandos de Podman](assets/comandos_podman.md) | [Contenedor para Jupyter Lab](deployment/jupyter_lab.yml)
 
 #### Tips & Tricks 
-- [Ética para uso de Vibe Coding](assets/etica_vibecoding.md) | [Documentación de un proyecto](assets/dane.md) | [Dataset](https://www.kaggle.com/) | [Datos sintéticos](assets/datos_sinteticos.md) ---> [FCS](notebooks/FullyConditionalSpecification.ipynb) | [IPSO](notebooks/InformationPreservingStatisticalObfuscation.ipynb) | [GANs](notebooks/GenerativeAdversarialNetwork.ipynb) | [Reporte de investigación](assets/recursos/Reporte_de_Investigación_PAI_INEGI_Privacidad_de_datos.pdf)
+- [Ética para uso de Vibe Coding](assets/etica_vibecoding.md) | [Documentación de un proyecto](assets/dane.md) | [Dataset](https://www.kaggle.com/)
+- [Datos sintéticos](assets/datos_sinteticos.md) ---> [FCS](notebooks/FullyConditionalSpecification.ipynb) | [IPSO](notebooks/InformationPreservingStatisticalObfuscation.ipynb) | [GANs](notebooks/GenerativeAdversarialNetwork.ipynb) | [Reporte de investigación](assets/recursos/Reporte_de_Investigación_PAI_INEGI_Privacidad_de_datos.pdf)
 
 #### Taller 
 - [Zero Trust](assets/recursos/UCAgs_MCD_BigData_&_Data_Zero_Trust.pdf)
