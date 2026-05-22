@@ -24,6 +24,9 @@
 #### Tips & Tricks 
 - [Ética para uso de Vibe Coding](assets/etica_vibecoding.md) | [Documentación de un proyecto](assets/dane.md) | [Dataset](https://www.kaggle.com/) | [Datos sintéticos](assets/datos_sinteticos.md) ---> [FCS](notebooks/FullyConditionalSpecification.ipynb) | [IPSO](notebooks/InformationPreservingStatisticalObfuscation.ipynb) | [GANs](notebooks/GenerativeAdversarialNetwork.ipynb) | [Reporte de investigación](assets/recursos/Reporte_de_Investigación_PAI_INEGI_Privacidad_de_datos.pdf)
 
+#### Taller 
+- [Zero Trust](assets/recursos/UCAgs_MCD_BigData_&_Data_Zero_Trust.pdf)
+
 #### Unidad 3 “R” para ciencia de datos.
 - 3.1 [Análisis de sentimientos en “R”](assets/analisis_r.md)
 - 3.1.1 [Un paseo por el software “R”](assets/paseox_r.md)
