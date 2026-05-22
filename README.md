@@ -66,7 +66,7 @@ ___________________________
 - [Datos sintéticos](assets/datos_sinteticos.md) ---> [FCS](notebooks/FullyConditionalSpecification.ipynb) | [IPSO](notebooks/InformationPreservingStatisticalObfuscation.ipynb) | [GANs](notebooks/GenerativeAdversarialNetwork.ipynb) | [Reporte de investigación](assets/recursos/Reporte_de_Investigación_PAI_INEGI_Privacidad_de_datos.pdf)
 
 #### Taller 
-- [Zero Trust](assets/recursos/UCAgs_MCD_BigData_&_Data_Zero_Trust.pdf)
+- [Zero Trust](assets/recursos/UCAgs_MCD_BigData_&_Data_Zero_Trust.pdf) | [Ejemplos](assets/recursos/UCAgs_MCD_BigData_&_Data_Ejemplo_Empresas.pdf)
 
 
 _____________________________
