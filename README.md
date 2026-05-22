@@ -67,7 +67,7 @@ ___________________________
 
 #### Taller 
 - [Zero Trust](assets/recursos/UCAgs_MCD_BigData_&_Data_Zero_Trust.pdf) | [Herramientas](assets/recursos/herramientas_zero-trust.md) | [Ejemplos](assets/recursos/UCAgs_MCD_BigData_&_Data_Ejemplo_Empresas.pdf)
-
+| [Auditoria](assets/recursos/Cuestionario_Auditoria_Ciberseguridad.pdf)
 _____________________________
 Referencias 
 
