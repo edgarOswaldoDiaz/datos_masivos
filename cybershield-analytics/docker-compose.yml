@@ -1,0 +1,21 @@
+version: '3.9'
+
+services:
+
+  jupyter:
+    build:
+      context: .
+      dockerfile: docker/Dockerfile.jupyter
+
+    container_name: cybershield_jupyter
+
+    ports:
+      - "8888:8888"
+
+    volumes:
+      - ./:/app
+
+    environment:
+      - JUPYTER_ENABLE_LAB=yes
+
+    restart: unless-stopped
