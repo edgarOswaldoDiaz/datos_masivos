@@ -70,7 +70,7 @@ Fuentes principales:
 - Gestión de proyectos (Asana)  
 - Desarrollo (GitHub, Jenkins)  
 - Soporte (Zendesk)  
-- Recursos Humanos (BambooHR) [1](https://365inegi-my.sharepoint.com/personal/paola_avila_inegi_org_mx1/Documents/Microsoft%20Copilot%20Chat%20Files/UCAgs_MCD_BigData_%26_Data_Ejemplo_Empresas.pdf)  
+- Recursos Humanos (BambooHR)
 
 Plataforma:
 - Data Lake: almacenamiento de datos crudos  
