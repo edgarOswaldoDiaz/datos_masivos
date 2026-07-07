@@ -1,11 +1,11 @@
-## Etíca en el uso de "Vibe Coding"
+## Ética en el uso de "Vibe Coding"
 - **Priorizar la integridad científica**: Usar Vibe Coding como herramienta auxiliar para generar código, pero validar siempre resultados manualmente para evitar sesgos o errores en pipelines de datos. 
 
 - **Asegurar la confidencialidad de datos**: Cumplir con normativas como anonimización de datos sensibles antes de cualquier automatización. 
 
 - **Garantizar trazabilidad total**: Registrar prompts, generaciones de IA y modificaciones para auditorías, permitiendo explicabilidad en modelos de datos.
 
-- **Implementar revisiones humanas críticas**: No despliegar código generado sin validaciones manuales en etapas clave, como entrenamiento de modelos o inferencia.
+- **Implementar revisiones humanas críticas**: No desplegar código generado sin validaciones manuales en etapas clave, como entrenamiento de modelos o inferencia.
 
 - **Mitigar sesgos algorítmicos**: Evalúar datasets y outputs por equidad; ajustar prompts para diversidad en análisis de datos. 
 
